@@ -1,3 +1,0 @@
-cohort,validation_scheme,support,product,rule,station_policy,positive_rows_before_count,baseline_rows,retained_rows,row_retention,baseline_stations,retained_stations
-high_confidence,temporal_forward,fixed_four,Consensus,baseline,observation_only,233,119,119,1.0,19,19
-high_confidence,wse_stratified,fixed_four,Consensus,baseline,observation_only,732,672,672,1.0,73,73

@@ -1,3 +1,0 @@
-validation_scheme,cluster,stations,observations,events,clusters,formula,coefficient_count,status,warnings
-temporal_forward,spatial_block,137,1368,131,21,outcome ~ log_width + log_Q50 + log_relative_Q + log_distance + C(region),8,ok,
-wse_stratified,spatial_block,247,5500,386,27,outcome ~ log_width + log_Q50 + log_relative_Q + log_distance + C(region),8,ok,

@@ -1,4 +1,0 @@
-statistic_name,value,unit,scope
-paired_calibration_fits,3778,fits,"All four fitted parameters, calibration width anchors and calibration slope reference were equal"
-paired_prediction_rows,22562,station-observation-assignment rows,Same WSE and retained slope; only validation width differs
-WSE_and_slope_equal,true,boolean,Controlled input equality verified in saved source audit
