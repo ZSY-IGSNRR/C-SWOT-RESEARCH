@@ -1,0 +1,291 @@
+[
+  {
+    "name": "geopandas",
+    "version": "1.1.1",
+    "declared_license": "BSD 3-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/geopandas/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.10.3",
+    "declared_license": "License agreement for matplotlib versions 1.3.0 and later",
+    "included_notice_files": [
+      "environment/third_party_licenses/matplotlib/LICENSE"
+    ]
+  },
+  {
+    "name": "netCDF4",
+    "version": "1.7.2",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/netcdf4/LICENSE"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.3.1",
+    "declared_license": "Copyright (c) 2005-2025, NumPy Developers.",
+    "included_notice_files": [
+      "environment/third_party_licenses/numpy/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "pandas",
+    "version": "2.3.1",
+    "declared_license": "BSD 3-Clause License",
+    "included_notice_files": [
+      "environment/third_party_licenses/pandas/LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "11.3.0",
+    "declared_license": "MIT-CMU",
+    "included_notice_files": [
+      "environment/third_party_licenses/pillow/LICENSE"
+    ]
+  },
+  {
+    "name": "pyogrio",
+    "version": "0.11.0",
+    "declared_license": "MIT License",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyogrio/LICENSE"
+    ]
+  },
+  {
+    "name": "pyproj",
+    "version": "3.7.1",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyproj/LICENSE",
+      "environment/third_party_licenses/pyproj/LICENSE_proj"
+    ]
+  },
+  {
+    "name": "pyshp",
+    "version": "2.3.1",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyshp/LICENSE.TXT"
+    ]
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.7.0",
+    "declared_license": "BSD 3-Clause License",
+    "included_notice_files": [
+      "environment/third_party_licenses/scikit-learn/COPYING"
+    ]
+  },
+  {
+    "name": "scipy",
+    "version": "1.16.0",
+    "declared_license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+    "included_notice_files": [
+      "environment/third_party_licenses/scipy/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "seaborn",
+    "version": "0.13.2",
+    "declared_license": "",
+    "included_notice_files": [
+      "environment/third_party_licenses/seaborn/LICENSE.md"
+    ]
+  },
+  {
+    "name": "shapely",
+    "version": "2.1.1",
+    "declared_license": "BSD 3-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/shapely/LICENSE.txt",
+      "environment/third_party_licenses/shapely/LICENSE_GEOS",
+      "environment/third_party_licenses/shapely/LICENSE_win32"
+    ]
+  },
+  {
+    "name": "statsmodels",
+    "version": "0.14.5",
+    "declared_license": "BSD License",
+    "included_notice_files": [
+      "environment/third_party_licenses/statsmodels/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "xarray",
+    "version": "2025.7.1",
+    "declared_license": "Apache-2.0",
+    "included_notice_files": [
+      "environment/third_party_licenses/xarray/LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "declared_license": "MPL-2.0",
+    "included_notice_files": [
+      "environment/third_party_licenses/certifi-2026.7.22/LICENSE"
+    ]
+  },
+  {
+    "name": "contourpy",
+    "version": "1.4.0",
+    "declared_license": "BSD-3-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/contourpy-1.4.0/LICENSE"
+    ]
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "declared_license": "Copyright (c) 2015, matplotlib project",
+    "included_notice_files": [
+      "environment/third_party_licenses/cycler-0.12.1/LICENSE"
+    ]
+  },
+  {
+    "name": "fonttools",
+    "version": "4.66.1",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/fonttools-4.66.1/LICENSE",
+      "environment/third_party_licenses/fonttools-4.66.1/LICENSE.external"
+    ]
+  },
+  {
+    "name": "geopandas",
+    "version": "1.2.0",
+    "declared_license": "BSD-3-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/geopandas-1.2.0/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "declared_license": "=========================",
+    "included_notice_files": [
+      "environment/third_party_licenses/kiwisolver-1.5.1/LICENSE"
+    ]
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.2",
+    "declared_license": "License agreement for matplotlib versions 1.3.0 and later",
+    "included_notice_files": [
+      "environment/third_party_licenses/matplotlib-3.11.2/LICENSE"
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "declared_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "included_notice_files": [
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.txt",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.txt",
+      "environment/third_party_licenses/numpy-2.5.3/COPYING",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.txt",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "environment/third_party_licenses/numpy-2.5.3/LICENSE.md"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "declared_license": "Apache-2.0 OR BSD-2-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/packaging-26.3/LICENSE",
+      "environment/third_party_licenses/packaging-26.3/LICENSE.APACHE",
+      "environment/third_party_licenses/packaging-26.3/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pandas",
+    "version": "3.0.6",
+    "declared_license": "BSD 3-Clause License",
+    "included_notice_files": [
+      "environment/third_party_licenses/pandas-3.0.6/LICENSE"
+    ]
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "declared_license": "MIT-CMU",
+    "included_notice_files": [
+      "environment/third_party_licenses/pillow-12.3.0/LICENSE"
+    ]
+  },
+  {
+    "name": "pyogrio",
+    "version": "0.13.0",
+    "declared_license": "MIT License",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyogrio-0.13.0/LICENSE"
+    ]
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyparsing-3.3.3/LICENSE"
+    ]
+  },
+  {
+    "name": "pyproj",
+    "version": "3.8.0",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/pyproj-3.8.0/LICENSE",
+      "environment/third_party_licenses/pyproj-3.8.0/LICENSE_proj"
+    ]
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "declared_license": "Dual License",
+    "included_notice_files": [
+      "environment/third_party_licenses/python-dateutil-2.9.0.post0/LICENSE"
+    ]
+  },
+  {
+    "name": "shapely",
+    "version": "2.1.2",
+    "declared_license": "BSD 3-Clause",
+    "included_notice_files": [
+      "environment/third_party_licenses/shapely-2.1.2/LICENSE.txt",
+      "environment/third_party_licenses/shapely-2.1.2/LICENSE_GEOS",
+      "environment/third_party_licenses/shapely-2.1.2/LICENSE_win32"
+    ]
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "declared_license": "MIT",
+    "included_notice_files": [
+      "environment/third_party_licenses/six-1.17.0/LICENSE"
+    ]
+  },
+  {
+    "name": "tzdata",
+    "version": "2026.5",
+    "declared_license": "Apache-2.0",
+    "included_notice_files": [
+      "environment/third_party_licenses/tzdata-2026.5/LICENSE",
+      "environment/third_party_licenses/tzdata-2026.5/LICENSE_APACHE"
+    ]
+  }
+]

@@ -1,0 +1,768 @@
+{
+  "release": "Manuscript v15",
+  "source_files": [
+    {
+      "file": "EDITORIAL_CHANGES.md",
+      "source": "Author-created public v15 documentation",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "884fcd466fc7953dcda5fd22951bdb4c52366d21ab07f81cc2ce8a2cfb3562a5"
+    },
+    {
+      "file": "README.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Document canonical figure filenames and accurately distinguish scientific-data downloads from schema validation access"
+      ],
+      "published_sha256": "4a5d51178a5f15cf445242da5698c0f56f68532ebacb16cb0386ee876060110c"
+    },
+    {
+      "file": "calibration/common_support.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/common_support.py",
+      "source_sha256": "9d8008a16e683ca977bc1f38f20402da8086d61abd0502f19e5802b25a9f1aa9",
+      "published_sha256": "9d8008a16e683ca977bc1f38f20402da8086d61abd0502f19e5802b25a9f1aa9",
+      "modifications": []
+    },
+    {
+      "file": "calibration/quality_geometry.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/quality_geometry.py",
+      "source_sha256": "93c0b6abae9f7303a7975615d031439415212a38835a7a04b14b1959cfe6f171",
+      "published_sha256": "93c0b6abae9f7303a7975615d031439415212a38835a7a04b14b1959cfe6f171",
+      "modifications": []
+    },
+    {
+      "file": "calibration/revision_audits.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/revision_audits.py",
+      "source_sha256": "109e8e9efa58b1532cd7eea50f3f8228e493afc8413ab0dd5239f401cee18cad",
+      "published_sha256": "109e8e9efa58b1532cd7eea50f3f8228e493afc8413ab0dd5239f401cee18cad",
+      "modifications": []
+    },
+    {
+      "file": "calibration/run_beta_wse0_width0_experiments.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/run_beta_wse0_width0_experiments.py",
+      "source_sha256": "4a4e5c444a8bddae5ef7290f1f455e679ae1e0d05d0b962e4d646d190150c43e",
+      "published_sha256": "4a4e5c444a8bddae5ef7290f1f455e679ae1e0d05d0b962e4d646d190150c43e",
+      "modifications": []
+    },
+    {
+      "file": "calibration/run_review_revision_experiments.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/run_review_revision_experiments.py",
+      "source_sha256": "3490c19443ae68fe5b42dda9e40ee518eae795ab2e041bc88b94b13423d30b01",
+      "published_sha256": "3490c19443ae68fe5b42dda9e40ee518eae795ab2e041bc88b94b13423d30b01",
+      "modifications": []
+    },
+    {
+      "file": "calibration/swot_beta_wse0_width0_model.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/swot_beta_wse0_width0_model.py",
+      "source_sha256": "7ff62c5469479333965077864c926925637c8e1aa7d1f9ba2cec86604eb8c7ce",
+      "published_sha256": "7ff62c5469479333965077864c926925637c8e1aa7d1f9ba2cec86604eb8c7ce",
+      "modifications": []
+    },
+    {
+      "file": "calibration/swot_n_wse0_width0_nonnegative_cv.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/swot_n_wse0_width0_nonnegative_cv.py",
+      "source_sha256": "e8e35585fcdecbea5736e1f78c3b2c17d93726cd741d84653d90000077966a02",
+      "published_sha256": "e8e35585fcdecbea5736e1f78c3b2c17d93726cd741d84653d90000077966a02",
+      "modifications": []
+    },
+    {
+      "file": "calibration/test_global_quality_geometry.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/test_global_quality_geometry.py",
+      "source_sha256": "3915cc9391b82d8a9ec1629e1d07e62a708d28f77007d3171c76e634fe5d79fe",
+      "published_sha256": "3915cc9391b82d8a9ec1629e1d07e62a708d28f77007d3171c76e634fe5d79fe",
+      "modifications": []
+    },
+    {
+      "file": "calibration/verify_results.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/verify_results.py",
+      "source_sha256": "41ac5b52e5ecbd9a3aafb7ca977bdaa82a1fcd185f9c94ab538de187e85eebb1",
+      "published_sha256": "41ac5b52e5ecbd9a3aafb7ca977bdaa82a1fcd185f9c94ab538de187e85eebb1",
+      "modifications": []
+    },
+    {
+      "file": "calibration/verify_swot5_results.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/verify_swot5_results.py",
+      "source_sha256": "0fd6dbf86b176911d2f52fa83158e1af92550b14318e3eb0256a3e289be4da73",
+      "published_sha256": "0fd6dbf86b176911d2f52fa83158e1af92550b14318e3eb0256a3e289be4da73",
+      "modifications": []
+    },
+    {
+      "file": "configuration/calibration_v15.json",
+      "source": "Saved model run configuration",
+      "source_sha256": null,
+      "published_sha256": "7b603cc48eeec92dfa49a4637ded037611b7039c15b43081398de8e249ab6fd0",
+      "modifications": [
+        "Only paths relocated; scientific settings preserved"
+      ]
+    },
+    {
+      "file": "configuration/postprocessing_v15.json",
+      "source": "Saved postprocess configuration",
+      "source_sha256": null,
+      "published_sha256": "d1e17243258a237380484b27e573d5e317c9d73e17e5c76c413ef49bb12c2e7f",
+      "modifications": [
+        "Only paths and provenance path keys relocated; scientific settings preserved"
+      ]
+    },
+    {
+      "file": "configuration/upstream.example.json",
+      "source": "Upstream example configuration",
+      "source_sha256": null,
+      "published_sha256": "b8b6f1fe7d43384cda1595a2a407dd9d2cbfe8ccae5b8768532c97044745d7b8",
+      "modifications": [
+        "Only paths relocated; collection/settings unchanged"
+      ]
+    },
+    {
+      "file": "diagnostics/analyze_errors.py",
+      "source": "work/extreme_error_compare_20261009/analyze.py",
+      "source_sha256": "5d631260beab5473d02bb17dbd8b37fce11b109151a4476e7f452e257b82d7da",
+      "published_sha256": "5c5d66d3c400357d52409386997a13886ff17ba088c174dcf445e922016715ba",
+      "modifications": [
+        "Only module/input/output paths changed; Figure 5 output renumbering where applicable; diagnostic calculations unchanged"
+      ]
+    },
+    {
+      "file": "diagnostics/analyze_width.py",
+      "source": "work/extreme_revision_20261009/analyze_width.py",
+      "source_sha256": "d177268958af1d331af73d8bf3da1b44e739639faef5db803d919d685a8b8740",
+      "published_sha256": "5581f17f5d100273420f3e941120de24c0734c89ceaf642b1f8caa55f863607d",
+      "modifications": [
+        "Only module/input/output paths changed; Figure 5 output renumbering where applicable; diagnostic calculations unchanged"
+      ]
+    },
+    {
+      "file": "diagnostics/build_error_figure.py",
+      "source": "work/extreme_revision_20261009/make_figure.py",
+      "source_sha256": "f078ff88f16a88b394ca28aa76f117f48bb823ce2cdb27dd2dedd252206c4778",
+      "published_sha256": "0aca56a6ab4d40f4cd2ea2da3d913552884b65e552bbb41719a73fdb25250f88",
+      "modifications": [
+        "Only module/input/output paths changed; Figure 5 output renumbering where applicable; diagnostic calculations unchanged"
+      ]
+    },
+    {
+      "file": "environment/README_EN.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "cede49eff2604c0b03ebc7da795d799365565b637d54e9bb633c77a850128306"
+    },
+    {
+      "file": "environment/requirements_figures.txt",
+      "source": "work/converge_20261007/plot_dependencies metadata",
+      "source_sha256": null,
+      "published_sha256": "587f0261d6200702a7c2aa3b2c58848876185d359a8b38a63e6a78397b3dd830",
+      "modifications": []
+    },
+    {
+      "file": "environment/requirements_main.txt",
+      "source": "Observed local Python 3.13 site-packages metadata",
+      "source_sha256": null,
+      "published_sha256": "a3289090eed1fc4a4ce9f80a86d39d63476edff3a277cd7abab84b668475fe3e",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_dependencies.json",
+      "source": "Installed dependency license metadata",
+      "source_sha256": null,
+      "published_sha256": "bd807f98ee20598e9ae19b4f340b81bab24da141881e151194c7b7ba8a56b1d9",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/certifi-2026.7.22/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "file": "environment/third_party_licenses/contourpy-1.4.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "0e55e86a8fbf3e9b482ae8dc9e111e1b0dc09a7d300e7f480dda68c1125ed614"
+    },
+    {
+      "file": "environment/third_party_licenses/cycler-0.12.1/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+    },
+    {
+      "file": "environment/third_party_licenses/fonttools-4.66.1/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+    },
+    {
+      "file": "environment/third_party_licenses/fonttools-4.66.1/LICENSE.external",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
+    },
+    {
+      "file": "environment/third_party_licenses/geopandas-1.2.0/LICENSE.txt",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "c60efa15937a5a82a5a2786a26be7452936fffec7a845724db0740e54535c8ea"
+    },
+    {
+      "file": "environment/third_party_licenses/geopandas/LICENSE.txt",
+      "source": "Installed dependency geopandas 1.1.1 license text",
+      "source_sha256": null,
+      "published_sha256": "c60efa15937a5a82a5a2786a26be7452936fffec7a845724db0740e54535c8ea",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/kiwisolver-1.5.1/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
+    },
+    {
+      "file": "environment/third_party_licenses/matplotlib-3.11.2/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+    },
+    {
+      "file": "environment/third_party_licenses/matplotlib/LICENSE",
+      "source": "Installed dependency matplotlib 3.10.3 license text",
+      "source_sha256": null,
+      "published_sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/netcdf4/LICENSE",
+      "source": "Installed dependency netCDF4 1.7.2 license text",
+      "source_sha256": null,
+      "published_sha256": "db31da13043dab1f6e1e6eb6215a20fb0db29dc61968a870250ff4829635257e",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/numpy-2.5.3/COPYING",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+    },
+    {
+      "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    },
+    {
+      "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE.txt",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+    },
+    {
+      "file": "environment/third_party_licenses/numpy/LICENSE.txt",
+      "source": "Installed dependency numpy 2.3.1 license text",
+      "source_sha256": null,
+      "published_sha256": "233d7ab5c32bc4aed6848f647d397007965acdb691c86fe27d17cc3eb60359d1",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/packaging-26.3/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "file": "environment/third_party_licenses/packaging-26.3/LICENSE.APACHE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "environment/third_party_licenses/packaging-26.3/LICENSE.BSD",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "file": "environment/third_party_licenses/pandas-3.0.6/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae"
+    },
+    {
+      "file": "environment/third_party_licenses/pandas/LICENSE",
+      "source": "Installed dependency pandas 2.3.1 license text",
+      "source_sha256": null,
+      "published_sha256": "533eb6d0b98e5be3ddd12dce97be35dd11282f5c47cdf8d08c81756fd5d70a26",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/pillow-12.3.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "file": "environment/third_party_licenses/pillow/LICENSE",
+      "source": "Installed dependency pillow 11.3.0 license text",
+      "source_sha256": null,
+      "published_sha256": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/pyogrio-0.13.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22"
+    },
+    {
+      "file": "environment/third_party_licenses/pyogrio/LICENSE",
+      "source": "Installed dependency pyogrio 0.11.0 license text",
+      "source_sha256": null,
+      "published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/pyparsing-3.3.3/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+    },
+    {
+      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da"
+    },
+    {
+      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE_proj",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "ec8ad0defdbcfac5083e510c000c05a5b63144c685e0a879b7c081b5e44e24c7"
+    },
+    {
+      "file": "environment/third_party_licenses/pyproj/LICENSE",
+      "source": "Installed dependency pyproj 3.7.1 license text",
+      "source_sha256": null,
+      "published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/pyproj/LICENSE_proj",
+      "source": "Installed dependency pyproj 3.7.1 license text",
+      "source_sha256": null,
+      "published_sha256": "ec8ad0defdbcfac5083e510c000c05a5b63144c685e0a879b7c081b5e44e24c7",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/pyshp/LICENSE.TXT",
+      "source": "Installed dependency pyshp 2.3.1 license text",
+      "source_sha256": null,
+      "published_sha256": "6cfcbf778f6ff3a4dc29e864f5729828c3cfc0ad8140f3e9951a68c4e6dbbdfa",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/python-dateutil-2.9.0.post0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+    },
+    {
+      "file": "environment/third_party_licenses/scikit-learn/COPYING",
+      "source": "Installed dependency scikit-learn 1.7.0 license text",
+      "source_sha256": null,
+      "published_sha256": "1b74e02d0cb8e6502091124787fc91695b9dd92c9cb146d9d34830f9a300ab3c",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/scipy/LICENSE.txt",
+      "source": "Installed dependency scipy 1.16.0 license text",
+      "source_sha256": null,
+      "published_sha256": "564d63dbef2ef3eb1dec94908966d3edf5f11c487ee2cf2baf8bf3faef01bdd9",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/seaborn/LICENSE.md",
+      "source": "Installed dependency seaborn 0.13.2 license text",
+      "source_sha256": null,
+      "published_sha256": "357ad276e086fab501163d4e9a0ae13c2fd0647eb08d2305fbc0ca3813892601",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE.txt",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf"
+    },
+    {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_GEOS",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "91a5bb11df4d44bfddc0c68db43681705326107781599fb6c6ff821042072d64"
+    },
+    {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_win32",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "9b30cd1a09789884dd54e5828e31d2bf8e6879034e7cf7b6e0321444cf6dd11d"
+    },
+    {
+      "file": "environment/third_party_licenses/shapely/LICENSE.txt",
+      "source": "Installed dependency shapely 2.1.1 license text",
+      "source_sha256": null,
+      "published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/shapely/LICENSE_GEOS",
+      "source": "Installed dependency shapely 2.1.1 license text",
+      "source_sha256": null,
+      "published_sha256": "91a5bb11df4d44bfddc0c68db43681705326107781599fb6c6ff821042072d64",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/shapely/LICENSE_win32",
+      "source": "Installed dependency shapely 2.1.1 license text",
+      "source_sha256": null,
+      "published_sha256": "9b30cd1a09789884dd54e5828e31d2bf8e6879034e7cf7b6e0321444cf6dd11d",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/six-1.17.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+    },
+    {
+      "file": "environment/third_party_licenses/statsmodels/LICENSE.txt",
+      "source": "Installed dependency statsmodels 0.14.5 license text",
+      "source_sha256": null,
+      "published_sha256": "0897212c24b09ba69c4917490d8828081d60bb4303ec0045e553a9e470f38efa",
+      "modifications": []
+    },
+    {
+      "file": "environment/third_party_licenses/tzdata-2026.5/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+    },
+    {
+      "file": "environment/third_party_licenses/tzdata-2026.5/LICENSE_APACHE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "environment/third_party_licenses/xarray/LICENSE",
+      "source": "Installed dependency xarray 2025.7.1 license text",
+      "source_sha256": null,
+      "published_sha256": "533d735a2bbc40eccebe20014c38a2bf6fb1afd488398d2c508006496099af17",
+      "modifications": []
+    },
+    {
+      "file": "figures/analyze_domain.py",
+      "source": "work/converge_20261007/analyze.py",
+      "source_sha256": "c065ce3d85eb34c0638ae86dd190223bbc4f8558998ca0ab006ba3cfec355af2",
+      "published_sha256": "501ddf63751c0d50fcea8d596ac6fd196fc0c6ebd73ee8be4028887434db7683",
+      "modifications": [
+        "Paths supplied by run.py environment; domain/bin calculations unchanged"
+      ]
+    },
+    {
+      "file": "figures/build_method_figure.py",
+      "source": "work/figure1_20261010/build_figure.py",
+      "source_sha256": "d9c6d0acf71754d2236059125ea135b6124ce97afd082fa4c22cbd11e50f1b88",
+      "published_sha256": "b8e527fdf8a678cd5ae330c64ee2d563dbdddf6ecfde08554539589605d4b640",
+      "modifications": [
+        "Only background/output paths supplied by run.py; diagram geometry unchanged",
+        "Final output filenames standardized to Figure_1.png and Figure_1.svg"
+      ]
+    },
+    {
+      "file": "figures/build_statistics_figures.py",
+      "source": "work/converge_20261007/build_figures.py",
+      "source_sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4",
+      "published_sha256": "d22a75b2eec3e129482a115623e633a717dd198281a65ce5ee86f35c76e6064e",
+      "modifications": [
+        "Selected v15 statistical figures; removed legacy concept/export; parameterized paths; renamed SoS to F06 and parameter supplement to S02; numerical/rendering functions unchanged"
+      ]
+    },
+    {
+      "file": "figures/plot_helpers.py",
+      "source": "SWOT_Figures_focused_20261007.zip:source/build_figures_previous.py",
+      "source_sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929",
+      "published_sha256": "9cab3c776bc4c71f1ec862538b9fee8ae1c0cd0459e10513d09aaa6e459f2f30",
+      "modifications": [
+        "Kept helpers and SoS/width/parameter figure functions used by v15; removed unused legacy gallery/concept functions; path defaults relative",
+        "Updated docstring command reference to public entry point"
+      ]
+    },
+    {
+      "file": "figures/prepare_data.py",
+      "source": "SWOT_Figures_focused_20261007.zip:source/prepare_data_previous.py",
+      "source_sha256": "7fcaecf75c0bf107000c48ba1d078e9a8767ec5db85f6a86142871ae0904fe09",
+      "published_sha256": "e6194603f280820993c6c800a0d2d3fd82831f6f6302514c40e7ec19df5360e0",
+      "modifications": [
+        "Absolute defaults made relative; removed diagnostic stdout values; calculations unchanged"
+      ]
+    },
+    {
+      "file": "postprocessing/analyze_postprocess.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/analyze_postprocess.py",
+      "source_sha256": "684e1810a5d92894cbe1e51aefc7bee32ba9d41766e80ef83a856fd667f41c19",
+      "published_sha256": "a3108a575d8cf9143c36d9cee9545653e0e288c9d8164b30eeac1ddfc4e88f16",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged",
+        "Updated docstring command reference to public entry point"
+      ]
+    },
+    {
+      "file": "postprocessing/common.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/common.py",
+      "source_sha256": "44d8cfe0aa2a8fda233272d2c8d0b82600ee46c11b207d56ad62c6dbb9a86402",
+      "published_sha256": "44d8cfe0aa2a8fda233272d2c8d0b82600ee46c11b207d56ad62c6dbb9a86402",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged"
+      ]
+    },
+    {
+      "file": "postprocessing/finish_postprocess.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/finish_postprocess.py",
+      "source_sha256": "996a4de7c4379669fd9c26a26646f500049ab69abcac62d1d0324c3cd1ad10f1",
+      "published_sha256": "8020e28426e95b4e655ec1890c738743c7c7f6603ae2e03c9baf7bf4f543bbb9",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged"
+      ]
+    },
+    {
+      "file": "postprocessing/plot_postprocess.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/plot_postprocess.py",
+      "source_sha256": "72a5ee2bd301261e5bb443ca809dc84b0a2c4da03c65f5be35f4fc99d3f6369b",
+      "published_sha256": "a23654a910dda3d247683b4fad3593c2086ace9c4bb7f33ae9c4701de75acd93",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged"
+      ]
+    },
+    {
+      "file": "postprocessing/sos_analysis.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/sos_analysis.py",
+      "source_sha256": "e90ef16b630370a6c62fcddc1633ad823bcf1551f560abd74738d9f30179d253",
+      "published_sha256": "e90ef16b630370a6c62fcddc1633ad823bcf1551f560abd74738d9f30179d253",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged"
+      ]
+    },
+    {
+      "file": "postprocessing/test_postprocess.py",
+      "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/postprocess_code/test_postprocess.py",
+      "source_sha256": "7723d73a4eae3e7b742a8215eb22e6d2ea6c252ba54cda21c457391cd54eabdf",
+      "published_sha256": "7723d73a4eae3e7b742a8215eb22e6d2ea6c252ba54cda21c457391cd54eabdf",
+      "modifications": [
+        "Absolute default paths made relative; numeric logic unchanged"
+      ]
+    },
+    {
+      "file": "run.py",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Add canonical manuscript-named copies of generated statistical/diagnostic figures; rendering calculations unchanged"
+      ],
+      "published_sha256": "800fda1a9a3e818ca7b510fd2b4c62884205246907984716d1da031897645084"
+    },
+    {
+      "file": "upstream/README_EN.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "6152e59dd269612d420e6b9a9bf60533037f1b4c0c7f2ea8e3bb898fdfb554e0"
+    },
+    {
+      "file": "upstream/audit_sword_v16_v17b.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/audit_sword_v16_v17b.py",
+      "source_sha256": "17a3446844b526630da33b0363a9cafb3c94dfa1652dbc17cfdf5f61fb215749",
+      "published_sha256": "17a3446844b526630da33b0363a9cafb3c94dfa1652dbc17cfdf5f61fb215749",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/compare_sos_after_spatial_audit.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/compare_sos_after_spatial_audit.py",
+      "source_sha256": "16c7086be572516844c6da0bc5ba53b603d879100890bac524a8716db8b84e38",
+      "published_sha256": "16c7086be572516844c6da0bc5ba53b603d879100890bac524a8716db8b84e38",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/download_audited_sos_v16.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/download_audited_sos_v16.py",
+      "source_sha256": "eaf06d62bf669e113afdd9e0d3d5818683505a0e394af429e43ade475bd3d1e7",
+      "published_sha256": "eaf06d62bf669e113afdd9e0d3d5818683505a0e394af429e43ade475bd3d1e7",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/download_sword_v16_asia.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/download_sword_v16_asia.py",
+      "source_sha256": "08d4af8d1f3d234ae4be5d149190e8baa65f5e4dd812644b0bc2cfc5610479d9",
+      "published_sha256": "33e7baf567a171d63ce9979708394996848caba081462bc7aa57d3b67d3507ae",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/download_sword_v17b_asia.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/download_sword_v17b_asia.py",
+      "source_sha256": "bf222b6327a1fe56a560f800a6dda16dffdb8bfe6547a556f8caeea304656686",
+      "published_sha256": "7aae49bc8f9d367ba1142ab5d7fbce4ba43c4b89695e3e9b7f471540eb9f3825",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/run_pipeline.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/run_pipeline.py",
+      "source_sha256": "ac136c0b2cabc32854b2c9aecbe523acfe859ce4caa720338a9477b65904d350",
+      "published_sha256": "ac136c0b2cabc32854b2c9aecbe523acfe859ce4caa720338a9477b65904d350",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/__init__.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/__init__.py",
+      "source_sha256": "35b4e6f8c1957f63699d8c824fb37434e45031c76a0b37169f0d5629b976c741",
+      "published_sha256": "35b4e6f8c1957f63699d8c824fb37434e45031c76a0b37169f0d5629b976c741",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/audit.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/audit.py",
+      "source_sha256": "26fa0e279b3888a6eec014b79ed14ccfd40cff04017a7500a92529468df080d7",
+      "published_sha256": "26fa0e279b3888a6eec014b79ed14ccfd40cff04017a7500a92529468df080d7",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/common.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/common.py",
+      "source_sha256": "e9f1ff0d56414eb681bbc02532d80ce9306254e832709a0af63ff9df2bd82021",
+      "published_sha256": "e9f1ff0d56414eb681bbc02532d80ce9306254e832709a0af63ff9df2bd82021",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/config.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/config.py",
+      "source_sha256": "23f3b62a5a91c28afeec74a409ab511477928f25c0856e6b8c9f408e06ed4aed",
+      "published_sha256": "fe521e6ca1ec43c9a5a47d1df6124226ab198d6f0067fc7d7e176988c61431ba",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/fields.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/fields.py",
+      "source_sha256": "15a2ace149db269d3cd5e644f9b366a80c25c86be82d47c85ea8ef52ffe02778",
+      "published_sha256": "15a2ace149db269d3cd5e644f9b366a80c25c86be82d47c85ea8ef52ffe02778",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/fusion.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/fusion.py",
+      "source_sha256": "6e0e2b0c7520fd0e346c0edd3fec013ee714cd5c893a5ad9e9bd2fa11b89005a",
+      "published_sha256": "6e0e2b0c7520fd0e346c0edd3fec013ee714cd5c893a5ad9e9bd2fa11b89005a",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/hydrocron.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/hydrocron.py",
+      "source_sha256": "2ab199b7ed81f0dff367ad483c55bbd874f5f325eee8443567ae41534df9442d",
+      "published_sha256": "2ab199b7ed81f0dff367ad483c55bbd874f5f325eee8443567ae41534df9442d",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/inventory.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/inventory.py",
+      "source_sha256": "ba9bb2b8d4166e09961f6648e5fc18485595b0a15285adbbaee5214e3d8dea12",
+      "published_sha256": "ba9bb2b8d4166e09961f6648e5fc18485595b0a15285adbbaee5214e3d8dea12",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/quality.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/quality.py",
+      "source_sha256": "3266b6c285a6074f02d725b4cd3f2b30a9c80e6832ea0053d25a56b919a2d8fc",
+      "published_sha256": "3266b6c285a6074f02d725b4cd3f2b30a9c80e6832ea0053d25a56b919a2d8fc",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/swot_fusion/roughness.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/swot_fusion/roughness.py",
+      "source_sha256": "3f8701d2f78458f8860592b36534363ddcfbc528c7cc8a482122bddcda15fc4d",
+      "published_sha256": "3f8701d2f78458f8860592b36534363ddcfbc528c7cc8a482122bddcda15fc4d",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    },
+    {
+      "file": "upstream/tests/test_core.py",
+      "source": "outputs/SWOT_Final_Package_20261009/04_Code/upstream/swot_data_download_fusion/tests/test_core.py",
+      "source_sha256": "1de78b27c4411b3fcbc740e553b07cca7f2ebe0721c1249bbe6388654e038798",
+      "published_sha256": "1de78b27c4411b3fcbc740e553b07cca7f2ebe0721c1249bbe6388654e038798",
+      "modifications": [
+        "Absolute default paths made relative; numerical/download logic unchanged"
+      ]
+    }
+  ],
+  "changes_scope": "See EDITORIAL_CHANGES.md; ten calibration/model/QC/validation/check files byte-identical; other changes limited to paths, entry points, v15 figure selection/naming, and documentation",
+  "numerical_rerun_performed": false
+}

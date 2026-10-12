@@ -1,0 +1,45 @@
+{
+  "paths": {
+    "station_csv": "inputs/Station_info.csv",
+    "node_index_csv": "inputs/as_sword_nodes_v17b.csv",
+    "gauge_dir": "inputs/gauges",
+    "roughness_nc": "inputs/Merged_N_River.nc",
+    "output_root": "outputs/upstream"
+  },
+  "inventory": {
+    "scope": "station_neighborhood",
+    "station_matching_mode": "vc_legacy",
+    "node_neighbors_each_side": 1,
+    "max_station_node_distance_km": null,
+    "chunksize": 250000
+  },
+  "download": {
+    "start_time": "2023-03-01T00:00:00Z",
+    "end_time": "2026-09-03T23:59:59Z",
+    "max_workers": 8,
+    "retries": 4,
+    "overwrite": false,
+    "include_sos_v2": true
+  },
+  "quality": {
+    "accepted_node_q": [
+      0,
+      1
+    ],
+    "accepted_reach_q": [
+      0,
+      1
+    ],
+    "accepted_discharge_q": [
+      0,
+      1
+    ],
+    "exclude_hampel_outliers": true
+  },
+  "fusion": {
+    "reach_node_time_tolerance_minutes": 30,
+    "reach_node_slope_fallback_tolerance_days": null,
+    "gauge_match_tolerance_days": 0,
+    "station_overpass_hampel": true
+  }
+}

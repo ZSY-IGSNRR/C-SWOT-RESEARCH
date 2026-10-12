@@ -1,0 +1,6 @@
+product,version,doi,redistributed_in_this_release,role
+Hydrocron,1.6.4,10.5281/zenodo.15831782,no,SWOT observation access service
+SWOT RiverSP,D,10.5067/SWOT-RIVERSP-D,no,SWOT WSE width and slope inputs
+SWOT SoS,3,10.5067/SWOT-SOS-RD3,no,Unconstrained discharge product comparison
+SWORD,16,10.5281/zenodo.10013982,no,SoS network reference
+SWORD,17b,10.5281/zenodo.15299138,no,Local river network reference

@@ -1,0 +1,16 @@
+statistic_name,value,unit,section,scope,precision_status
+mapped_gauges,1446,stations,2.2,Initial spatial inventory,reported_rounded
+station_files,1143,files,2.2,Generated station files,reported_rounded
+wse_station_union,433,stations,3.1,Union of stations with predictions from ten WSE assignments,reported_rounded
+temporal_prediction_stations,422,stations,3.1,Stations with later-time predictions,reported_rounded
+within_wse_positive_station_NSE,57,stations,3.2,57 of 209 within-range NSE-eligible stations; 27.3%,reported_rounded
+all_wse_positive_station_NSE,66,stations,3.2,66 of 268 all-state NSE-eligible stations; 24.6%,reported_rounded
+all_wse_station_NSE_5th_percentile_positive,28,stations,3.2,Stations whose 5th-percentile NSE across assignments exceeded zero,reported_rounded
+outside_wse_pooled_NSE,-2.359,dimensionless,3.3,Median per-assignment pooled NSE combining below- and above-range observations,reported_rounded
+outside_wse_MdAPE,64.2,percent,3.3,Median per-assignment pooled MdAPE combining below- and above-range observations,reported_rounded
+sos_target_v17b_reaches,1290,reaches,3.4,SWORD v17b target network,reported_rounded
+sos_high_confidence_mappings,1212,reaches,3.4,High-confidence v17b-to-v16 spatial mapping,reported_rounded
+sos_mapping_changed_ID,992,reaches,3.4,High-confidence mapping requiring a different v16 ID,reported_rounded
+sos_maximum_matched_time_offset,19,seconds,3.4,Largest local-prediction versus SoS timestamp difference,reported_rounded
+sos_pairwise_MdAPE_wse_station_union,283,stations,3.4,Union eligible for paired MdAPE with at least one product,reported_rounded
+sos_pairwise_MdAPE_temporal_station_union,109,stations,3.4,Union eligible for paired MdAPE with at least one product,reported_rounded

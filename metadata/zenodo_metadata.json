@@ -1,0 +1,151 @@
+{
+  "title": "Public aggregate results and reproducibility code for Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations",
+  "version": "1.0.0",
+  "publication_date": "2026-10-12",
+  "resource_type": "Dataset (mixed public aggregate data and research software)",
+  "creators": [
+    {
+      "name": "Zou, Shengyu",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+        "Sino-Danish College, University of Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Xu, Zhenwu",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Tian, Jingyi",
+      "affiliations": [
+        "College of Earth and Environmental Sciences, Lanzhou University"
+      ]
+    },
+    {
+      "name": "Wang, Jiao",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Tang, Zixuan",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Wang, Xian",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Huang, Zhen",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Wei, Haoshan",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences"
+      ]
+    },
+    {
+      "name": "Miao, Ping",
+      "affiliations": [
+        "River and Lake Protection Center, Ordos Water Conservancy Bureau"
+      ]
+    },
+    {
+      "name": "Zhang, Yongqiang",
+      "affiliations": [
+        "Key Laboratory of Water Cycle and Related Land Surface Processes, Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences"
+      ]
+    }
+  ],
+  "description": "Public aggregate results, final figures and source code accompanying manuscript v15: Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations. Includes QC, validation, error, product-comparison and numerical diagnostic summaries. Ground discharge time series, matched observation-level evaluation tables and related caches are excluded. Full numerical recalculation requires authorized external inputs. Public verification and table reconstruction use released aggregates only.",
+  "keywords": [
+    "SWOT",
+    "river discharge",
+    "China",
+    "Manning equation",
+    "water surface elevation",
+    "width correction",
+    "hydraulic extrapolation"
+  ],
+  "access": "Public files in this package only",
+  "licenses": [
+    {
+      "id": "CC-BY-4.0",
+      "scope": "Original public aggregates, documentation and original figure elements"
+    },
+    {
+      "id": "MIT",
+      "scope": "Study-authored software"
+    }
+  ],
+  "related_manuscript": {
+    "title": "Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations",
+    "version": "SZ-SWOT-15_language_polished_clean.docx",
+    "status": "Revision manuscript; no publication DOI supplied"
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.15831782",
+      "scheme": "doi",
+      "relation": "Cites",
+      "title": "Hydrocron 1.6.4"
+    },
+    {
+      "identifier": "10.5067/SWOT-RIVERSP-D",
+      "scheme": "doi",
+      "relation": "Cites",
+      "title": "SWOT RiverSP Version D"
+    },
+    {
+      "identifier": "10.5067/SWOT-SOS-RD3",
+      "scheme": "doi",
+      "relation": "Cites",
+      "title": "SoS Version 3"
+    },
+    {
+      "identifier": "10.5281/zenodo.10013982",
+      "scheme": "doi",
+      "relation": "Cites",
+      "title": "SWORD v16"
+    },
+    {
+      "identifier": "10.5281/zenodo.15299138",
+      "scheme": "doi",
+      "relation": "Cites",
+      "title": "SWORD v17b"
+    }
+  ],
+  "doi_status": "Unassigned; this is a local package and no upload has occurred",
+  "publication_date_note": "Preparation date shown provisionally; use the actual first public deposit date when completing the record.",
+  "metadata_format_note": "Human-reviewed upload-form metadata, not an executable Zenodo API request. Author names follow the v15 author list; no ORCID identifiers or repository URLs are invented.",
+  "funding": [
+    {
+      "funder": "National Natural Science Foundation of China",
+      "grant_ids": [
+        "42330506",
+        "42361144709"
+      ]
+    },
+    {
+      "funder": "Talent Program of the Ministry of Science and Technology of China"
+    },
+    {
+      "funder": "Inner Mongolia Autonomous Region Water Conservancy Research Special Project",
+      "grant_ids": [
+        "NSK202301"
+      ]
+    }
+  ]
+}

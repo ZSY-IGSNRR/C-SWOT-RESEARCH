@@ -1,0 +1,5 @@
+flag,flagged,observations,fraction_of_complete,scope
+global_hampel_wse_count,714,10756,0.06638155448121978,Flags overlap; flag counts must not be summed to obtain observations removed
+global_hampel_width_count,726,10756,0.06749721085905541,Flags overlap; flag counts must not be summed to obtain observations removed
+global_hampel_log_slope_count,505,10756,0.046950539233915956,Flags overlap; flag counts must not be summed to obtain observations removed
+global_invalid_slope_count,200,10756,0.01859427296392711,Flags overlap; flag counts must not be summed to obtain observations removed

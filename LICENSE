@@ -1,0 +1,18 @@
+# License scope for SWOT China public release 1.0.0
+
+Copyright (c) 2026 Shengyu Zou and manuscript contributors.
+
+Study-authored software in code/ and scripts/ is licensed under the MIT License;
+see LICENSE_CODE.txt. Original aggregate results in data/, documentation and
+original figure elements are licensed under Creative Commons Attribution 4.0
+International (CC BY 4.0); see LICENSE_DATA.txt.
+
+Third-party components, separately credited basemap/illustration elements and
+upstream datasets retain their original licenses or usage terms. No license is
+granted for restricted gauge time series or observation-level evaluation tables,
+which are excluded. This release does not override upstream provider agreements.
+
+Dependencies are not vendored. See code/ environment and provenance documents
+and any explicit attribution in figures/figure_manifest.json for third-party
+components. When a figure contains a third-party element, the CC BY grant applies
+to the study-authored arrangement/annotations and not to rights in that element.

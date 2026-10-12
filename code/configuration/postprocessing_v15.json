@@ -1,0 +1,27 @@
+{
+  "results_dir": "outputs/results",
+  "output_dir": "outputs/postprocess_results",
+  "metadata": "inputs/station_metadata.csv",
+  "station_audit": "inputs/station_spatial_audit.csv",
+  "sos_raw_dir": "inputs/sos_v16_mapped_raw",
+  "boundary_file": "inputs/boundaries/Class2_hydrounits.shp",
+  "bootstrap": 2000,
+  "min_pairs": 5,
+  "sos_min_pairs": 4,
+  "max_stations": 0,
+  "skip_plots": false,
+  "smoke_test": false,
+  "main_model_refitted": false,
+  "Q50_definition": "daily medians, 2023-04-06 through 2024-03-07; at least 270 of 337 days",
+  "width_definition": "fixed nearest-node SWORD v17b prior, not fitted or gauge cross-section width",
+  "slope_definition": "current SWOT-5 saved calibration slope median, >=5 positive values, no global fallback; >=half repeat appearances flagged",
+  "selection_warning": "Residual exclusions are post hoc diagnostics, not independent model improvement",
+  "sources": {
+    "station_metadata.csv": "3e97ad77e2a7a41ffca1f1d72e77426f9ee305caa64561457db0dc6a20ab523b",
+    "station_spatial_audit.csv": "a97a82854cdbdb6e08daa90e4221ffc366b95a85a067af4100f23253468292aa",
+    "run_configuration.json": "11d38e74d0247f77fb9c3d86e9dcabef1f9ea91c584b7f4b1ff60cb9543aa23d",
+    "validation_predictions.csv": "e2553424057f03fa012398569ef4f148aa423d7fc87edde9929a957afa526a76",
+    "parameter_estimates.csv": "23fa624e0fd5a8120f46d40e0a430aa2dac0bf7b7d78bd15cef3ca850c29b35e",
+    "validation_metrics_by_station.csv": "87abd8655185670444773fab3cc3ee53ec723a2fee32d568b9b51a1fdd4f5e6a"
+  }
+}

@@ -1,0 +1,14 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The original public aggregate results, documentation and study-authored figure
+elements in this release are licensed under CC BY 4.0.
+
+Canonical license: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+The legal code at the canonical link is the controlling license text.
+
+Attribution: cite the release authors, title, version and eventual repository
+DOI, retain the license notice, and indicate any modifications. The release
+does not imply endorsement of derivative analyses. Separately credited
+third-party components retain their own terms. No rights are granted to
+excluded or restricted provider observations or to upstream datasets.
