@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.env
+local_config.json
+local_*.json
+/inputs/
+/outputs/
+/private/
+/data/
+*.pkl
+*.pickle

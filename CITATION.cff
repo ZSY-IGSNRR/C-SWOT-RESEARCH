@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this version of the public research release and the associated manuscript. Add the assigned release DOI after deposit; none has been assigned locally."
-type: dataset
-title: "Public aggregate results and reproducibility code for Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations"
-version: "1.0.0"
-date-released: "2026-10-12"
+message: "Please cite this code version and the associated manuscript. Add a release DOI only after it is assigned."
+type: software
+title: "Research code for Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations"
+version: "1.1.0"
+date-released: "2026-10-21"
 authors:
   - family-names: "Zou"
     given-names: "Shengyu"
@@ -28,7 +28,7 @@ authors:
 license:
   - MIT
   - CC-BY-4.0
-abstract: "Public network/group aggregates, final manuscript-v15 figures, and research source code. Restricted gauge time series and observation-level evaluation tables are excluded; full model recalculation requires authorized external inputs."
+abstract: "WSE-stratified fivefold research code and final manuscript-v15 figures. Restricted gauge time series and observation-level evaluation tables are excluded; full model recalculation requires authorized external inputs."
 keywords:
   - SWOT
   - river discharge

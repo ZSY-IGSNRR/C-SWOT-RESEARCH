@@ -1,263 +1,105 @@
 {
-  "release_version": "1.0.0",
-  "prepared_date": "2026-10-12",
-  "status": "Public-only local deposit package; no upload and no DOI assignment",
-  "manuscript_authority": {
-    "filename": "SZ-SWOT-15_language_polished_clean.docx",
-    "sha256": "b6ac58c9c969423620a44c3417d0a9694f44327601be101f1047f8a2feaddbd8"
+  "version": "1.1.0",
+  "prepared_date": "2026-10-21",
+  "status": "PASS",
+  "scope": "Local source integration, saved-prediction summary equivalence, selected figure regeneration, CLI and repository validation. No national optimizer rerun.",
+  "base_git_commit": "043d5cb",
+  "remote_data_removal_preserved": true,
+  "repository_contains_restricted_inputs_or_predictions": false,
+  "scientific_core_original_hashes_unchanged": 7,
+  "workflow_scripts_ported": 19,
+  "scientific_settings_and_numerical_function_AST_preserved": true,
+  "unit_tests": {
+    "release_tools_and_CLI_forwarding": 15,
+    "fold_invariants_input_boundaries_and_core_identity": 9,
+    "total_passed": 24
   },
-  "statistics": {
-    "files": 34,
-    "dictionary_fields": 498,
-    "checks_passed": 149,
-    "definition": "Network/group aggregates only; exact reported rounding separated from machine precision",
-    "traceability": "data/paper_traceability.csv"
-  },
-  "parent_independent_checks": {
-    "count": 54,
+  "saved_prediction_resummarization": {
     "status": "PASS",
-    "checks": [
-      "Table 1/Reconstruction/test_pairs_reported",
-      "Table 1/Reconstruction/NSE_valid_stations",
-      "Table 1/Reconstruction/station_R2",
-      "Table 1/Reconstruction/station_NSE",
-      "Table 1/Reconstruction/pooled_NSE",
-      "Table 1/Reconstruction/MdAPE_percent",
-      "Table 1/WSE all states/test_pairs_reported",
-      "Table 1/WSE all states/NSE_valid_stations",
-      "Table 1/WSE all states/station_R2",
-      "Table 1/WSE all states/station_NSE",
-      "Table 1/WSE all states/pooled_NSE",
-      "Table 1/WSE all states/MdAPE_percent",
-      "Table 1/WSE inside range/test_pairs_reported",
-      "Table 1/WSE inside range/NSE_valid_stations",
-      "Table 1/WSE inside range/station_R2",
-      "Table 1/WSE inside range/station_NSE",
-      "Table 1/WSE inside range/pooled_NSE",
-      "Table 1/WSE inside range/MdAPE_percent",
-      "Table 1/Temporal all states/test_pairs_reported",
-      "Table 1/Temporal all states/NSE_valid_stations",
-      "Table 1/Temporal all states/station_R2",
-      "Table 1/Temporal all states/station_NSE",
-      "Table 1/Temporal all states/pooled_NSE",
-      "Table 1/Temporal all states/MdAPE_percent",
-      "Table 1/Temporal inside range/test_pairs_reported",
-      "Table 1/Temporal inside range/NSE_valid_stations",
-      "Table 1/Temporal inside range/station_R2",
-      "Table 1/Temporal inside range/station_NSE",
-      "Table 1/Temporal inside range/pooled_NSE",
-      "Table 1/Temporal inside range/MdAPE_percent",
-      "Table S1/Measured validation width",
-      "Table S1/Observed widths throughout",
-      "Table S1/n only with fixed geometry",
-      "Table S1/Fixed reference n",
-      "Table S1/β fixed at 1",
-      "Table S1/Empirical WSE–Q curve",
-      "Table S1/No initial-width check",
-      "Table S1/No growth cap",
-      "Table S1/Isotonic curve alone",
-      "Table S1/No global Hampel rejection",
-      "QC stage and retention reconciliation",
-      "Screening paired cohorts and retained denominators",
-      "Anonymous cumulative error curve and top-62 contribution",
-      "Boundary factor/log10 transformation and interval order",
-      "Complete CSV traceability, row counts, hashes and dictionary coverage",
-      "Figure 1 exact embedded PNG and caption",
-      "Figure 2 exact embedded PNG and caption",
-      "Figure 3 exact embedded PNG and caption",
-      "Figure 4 exact embedded PNG and caption",
-      "Figure 5 exact embedded PNG and caption",
-      "Figure 6 exact embedded PNG and caption",
-      "Figure S1 exact embedded PNG and caption",
-      "Figure S2 exact embedded PNG and caption",
-      "Code source manifest hashes"
-    ]
-  },
-  "figures": {
-    "final_pngs": 8,
-    "png_bytes_match_manuscript": true,
-    "all_pngs_visually_reviewed": true,
-    "candidate_vector_pdfs_visually_reviewed": 6,
-    "native_figure3_vectors_excluded": true,
-    "manifest": "figures/figure_manifest.json"
-  },
-  "software": {
-    "core_model_qc_validation_files_byte_identical": 10,
-    "full_restricted_input_numerical_rerun": false,
-    "code_syntax_cli_and_missing_input_checks": {
-      "compileall_passed": true,
-      "public_cli_help": [
-        {
-          "command": "run.py --help",
-          "exit_code": 0,
-          "help_length": 1258,
-          "error": ""
-        },
-        {
-          "command": "run.py calibration --help",
-          "exit_code": 0,
-          "help_length": 720,
-          "error": ""
-        },
-        {
-          "command": "run.py postprocess --help",
-          "exit_code": 0,
-          "help_length": 826,
-          "error": ""
-        },
-        {
-          "command": "run.py upstream --help",
-          "exit_code": 0,
-          "help_length": 361,
-          "error": ""
-        },
-        {
-          "command": "run.py figure-cache --help",
-          "exit_code": 0,
-          "help_length": 378,
-          "error": ""
-        },
-        {
-          "command": "run.py wse-domain --help",
-          "exit_code": 0,
-          "help_length": 513,
-          "error": ""
-        },
-        {
-          "command": "run.py statistics-figures --help",
-          "exit_code": 0,
-          "help_length": 404,
-          "error": ""
-        },
-        {
-          "command": "run.py method-figure --help",
-          "exit_code": 0,
-          "help_length": 212,
-          "error": ""
-        },
-        {
-          "command": "run.py error-diagnostics --help",
-          "exit_code": 0,
-          "help_length": 325,
-          "error": ""
-        }
-      ],
-      "native_cli_help": [
-        {
-          "entry": "calibration/run_beta_wse0_width0_experiments.py",
-          "python": "Existing local Python 3.13",
-          "exit_code": 0,
-          "help_length": 5702,
-          "error": ""
-        },
-        {
-          "entry": "postprocessing/analyze_postprocess.py",
-          "python": "Existing local Python 3.13",
-          "exit_code": 0,
-          "help_length": 1115,
-          "error": ""
-        },
-        {
-          "entry": "upstream/run_pipeline.py",
-          "python": "Existing local Python 3.13",
-          "exit_code": 0,
-          "help_length": 715,
-          "error": ""
-        }
-      ],
-      "missing_input_guard": {
-        "exit_code": 2,
-        "clear_external_input_message": true,
-        "no_output_created": true
+    "resummarized_prediction_rows": 100271,
+    "methods": 13,
+    "summary_status": "PASS",
+    "full_model_unique_OOF_predictions": 7615,
+    "missing_full_predictions": 0,
+    "table_checks": [
+      {
+        "file": "cross_gauge_metrics_by_split.csv",
+        "rows": 1425,
+        "columns": 17,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
       },
-      "statistical_figure_functions_unchanged": {
-        "finish": true,
-        "support": true,
-        "validation": true,
-        "domain": true
+      {
+        "file": "cross_gauge_summary.csv",
+        "rows": 285,
+        "columns": 75,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
       },
-      "restricted_data_files_copied": false,
-      "full_numerical_reproduction_performed": false,
-      "remaining_source_compile_passed": true,
-      "calibration_source_identity": {
-        "common_support.py": true,
-        "quality_geometry.py": true,
-        "revision_audits.py": true,
-        "run_beta_wse0_width0_experiments.py": true,
-        "run_review_revision_experiments.py": true,
-        "swot_beta_wse0_width0_model.py": true,
-        "swot_n_wse0_width0_nonnegative_cv.py": true,
-        "test_global_quality_geometry.py": true,
-        "verify_results.py": true,
-        "verify_swot5_results.py": true
+      {
+        "file": "unique_observation_and_stacked_metrics.csv",
+        "rows": 285,
+        "columns": 16,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
       },
-      "legacy_plot_sources_excluded": true,
-      "no_cache_or_observation_files": true,
-      "personal_absolute_path_strings": [],
-      "final_naming_source_compile_passed": true,
-      "final_naming_cli_help": [
-        {
-          "command": "run.py --help",
-          "exit_code": 0
-        },
-        {
-          "command": "run.py method-figure --help",
-          "exit_code": 0
-        },
-        {
-          "command": "run.py statistics-figures --help",
-          "exit_code": 0
-        },
-        {
-          "command": "run.py error-diagnostics --help",
-          "exit_code": 0
-        }
-      ],
-      "canonical_output_names": [
-        "Figure_1",
-        "Figure_2",
-        "Figure_3",
-        "Figure_4",
-        "Figure_5",
-        "Figure_6",
-        "Figure_S1",
-        "Figure_S2"
-      ]
+      {
+        "file": "station_unique_observation_summary.csv",
+        "rows": 165,
+        "columns": 24,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
+      },
+      {
+        "file": "paired_gains.csv",
+        "rows": 30,
+        "columns": 11,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
+      },
+      {
+        "file": "comparison_coverage.csv",
+        "rows": 285,
+        "columns": 9,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
+      },
+      {
+        "file": "finite_pair_support.csv",
+        "rows": 13,
+        "columns": 4,
+        "same_keys_and_values_within_1e_12": true,
+        "max_relative_difference_scaled_by_max_1": 0.0
+      }
+    ],
+    "numerical_environment": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1"
     },
-    "source_hashes": "code/SOURCE_MANIFEST.json"
+    "national_model_optimization_rerun": false
   },
-  "public_method_figure_rebuild": {
-    "command": "python code/run.py method-figure --output <new directory>",
-    "png_bytes_identical_to_v15": true,
-    "input": "figures/assets/Fig1a_background.png",
-    "no_gauge_input": true
+  "matched_figure_regeneration": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "Pillow": "12.3.0",
+    "figures": [
+      {
+        "figure": 1,
+        "RGB_pixels_equal": true,
+        "PNG_bytes_equal": true
+      },
+      {
+        "figure": 4,
+        "RGB_pixels_equal": true,
+        "PNG_bytes_equal": true
+      }
+    ],
+    "Figure4_plot_data_bytes_equal": true
   },
-  "citation": {
-    "cff_version": "1.2.0",
-    "validated_against_official_schema": true,
-    "doi": null,
-    "orcid_placeholders": false
-  },
-  "checksums": "SHA256SUMS.txt",
-  "excluded_input_scope": "Restricted ground time series, observation-level Q tables, raw station metadata and caches are not distributed.",
-  "privacy_scan_scope": "CSV fields and grain reviewed; no actual provider observations or credentials intentionally selected. Native Figure 3 point vectors excluded. Rendered published figures are retained.",
-  "limitations": {
-    "observation_level_metric_recalculation": "Requires authorized external inputs",
-    "aggregate_reconstruction": "Formats released summaries; does not refit models",
-    "rights_certification": "No independent legal rights certification is claimed; third-party terms remain applicable"
-  },
-  "public_integrity_checks": {
-    "status": "PASS",
-    "checksummed_files": 178,
-    "python_files_syntax_checked": 45,
-    "csv_files_checked": 38,
-    "svg_files_checked": 7,
-    "errors": [],
-    "scope": "Integrity, file/schema exclusions and syntax only; no restricted-input numerical rerun or rights certification."
-  },
-  "public_table_reconstruction": {
-    "status": "PASS",
-    "aggregate_tables_exported": 34,
-    "definition": "Formatted exports of the released CSVs; no gauge input, metric recalculation or refitting"
-  }
+  "current_figure_PNGs_exactly_match_manuscript": 7,
+  "full_national_optimization_rerun": false,
+  "integrity_check": "Run scripts/check_release.py after generating the current file manifests; its full report is stored outside the repository.",
+  "line_endings": "Original calibration file bytes are pinned with Git -text; portable source and metadata use LF.",
+  "publication": "This update does not commit, push, upload or create a release."
 }

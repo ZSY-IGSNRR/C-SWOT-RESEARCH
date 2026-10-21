@@ -1,4 +1,4 @@
-"""Portable v15 entry points. Restricted observations are external inputs."""
+"""V15 fivefold workflows and legacy entry points; observations are external inputs."""
 from __future__ import annotations
 
 import argparse
@@ -20,7 +20,11 @@ def path_arg(parser, flag, help_text):
 def parser():
     p = argparse.ArgumentParser(description=__doc__)
     sub = p.add_subparsers(dest="command", required=True)
-    q = sub.add_parser("calibration", help="Run the original station model, QC, and validation")
+    q = sub.add_parser("fivefold", add_help=False, help="Current WSE-stratified fivefold workflow (use fivefold --help)")
+    q.add_argument("arguments", nargs=argparse.REMAINDER)
+    q = sub.add_parser("fivefold-figures", add_help=False, help="Current Figures 1–7 (use fivefold-figures --help)")
+    q.add_argument("arguments", nargs=argparse.REMAINDER)
+    q = sub.add_parser("calibration", help="Legacy ten-assignment model, QC, and temporal validation")
     path_arg(q, "--data-dir", "Locally authorized fused station-overpass CSV directory")
     path_arg(q, "--metadata-file", "External Find_N.csv station metadata")
     path_arg(q, "--boundary", "External hydrological boundary shapefile")
@@ -239,6 +243,11 @@ def error_diagnostics(a):
 
 
 def main():
+    forwarding = {"fivefold": "fivefold/cli.py", "fivefold-figures": "fivefold/build_figures.py"}
+    if len(sys.argv) > 1 and sys.argv[1] in forwarding:
+        env = os.environ.copy()
+        env.update({"PYTHONIOENCODING": "utf-8", "PYTHONUTF8": "1", "MPLBACKEND": "Agg"})
+        return subprocess.call([sys.executable, str(CODE / forwarding[sys.argv[1]]), *sys.argv[2:]], env=env)
     p = parser()
     a = p.parse_args()
     functions = {"calibration": calibration, "postprocess": postprocess, "upstream": upstream,
@@ -252,4 +261,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

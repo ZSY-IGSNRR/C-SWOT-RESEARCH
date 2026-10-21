@@ -1,5 +1,16 @@
 # Observed environments and verification
 
+The current fivefold analysis uses Python 3.12.14, NumPy 2.3.3, pandas 2.3.3,
+SciPy 1.16.2, scikit-learn 1.7.2 and Matplotlib 3.10.7. Install the current
+`requirements_fivefold.txt` for this workflow; the environment descriptions
+below refer to the older release. Geographic drawing also needs pyshp,
+Shapely and pyproj, and Figure 1 uses Pillow. No binary environment is vendored.
+
+The local fivefold experiment's saved environment and computation checks
+establish these versions. Updating the portable repository does not repeat the
+national optimization. Current interface and regression checks are listed in
+`metadata/release_validation.json`.
+
 The original source archive records Python 3.13 for calculation. `requirements_main.txt` records versions observed in the existing local Python 3.13 installation during release preparation on 12 October 2026. The scientific source was not recalibrated, and this list is not represented as a package lock captured at the original calculation date. Direct dependencies required by calibration, postprocessing, upstream preparation, and plotting are included.
 
 `requirements_figures.txt` records metadata from the dedicated plotting dependency directory used in preparation of the v15 figures. It provides an alternative plotting environment. Its numpy, pandas, matplotlib, and geographic package versions differ from the local main environment; install the two requirement sets in separate environments. The release does not distribute these libraries or claim a platform-independent binary lock.

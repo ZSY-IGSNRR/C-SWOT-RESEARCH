@@ -1,8 +1,8 @@
 {
-  "title": "Public aggregate results and reproducibility code for Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations",
-  "version": "1.0.0",
-  "publication_date": "2026-10-12",
-  "resource_type": "Dataset (mixed public aggregate data and research software)",
+  "title": "Research code for Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations",
+  "version": "1.1.0",
+  "publication_date": "2026-10-21",
+  "resource_type": "Software",
   "creators": [
     {
       "name": "Zou, Shengyu",
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "description": "Public aggregate results, final figures and source code accompanying manuscript v15: Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations. Includes QC, validation, error, product-comparison and numerical diagnostic summaries. Ground discharge time series, matched observation-level evaluation tables and related caches are excluded. Full numerical recalculation requires authorized external inputs. Public verification and table reconstruction use released aggregates only.",
+  "description": "Research source code and final Figures 1–7 for the 21 October 2026 manuscript v15. Includes standard WSE-stratified fivefold CV, unchanged hydraulic model/QC modules, product comparisons, error and station analysis, and portable plotting entry points. Numerical inputs, private predictions and the removed aggregate data directory are not distributed.",
   "keywords": [
     "SWOT",
     "river discharge",
@@ -83,7 +83,7 @@
   "licenses": [
     {
       "id": "CC-BY-4.0",
-      "scope": "Original public aggregates, documentation and original figure elements"
+      "scope": "Original documentation and author-created figure elements"
     },
     {
       "id": "MIT",
@@ -92,7 +92,7 @@
   ],
   "related_manuscript": {
     "title": "Estimating Streamflow Across Major Chinese Rivers Using SWOT Satellite Data and Sparse Ground Observations",
-    "version": "SZ-SWOT-15_language_polished_clean.docx",
+    "version": "SZ-SWOT-15_fivefold_CLEAN_EN_20261021.docx",
     "status": "Revision manuscript; no publication DOI supplied"
   },
   "related_identifiers": [
@@ -127,8 +127,8 @@
       "title": "SWORD v17b"
     }
   ],
-  "doi_status": "Unassigned; this is a local package and no upload has occurred",
-  "publication_date_note": "Preparation date shown provisionally; use the actual first public deposit date when completing the record.",
+  "doi_status": "No DOI assigned by this local code update; verify any existing record before a deposit.",
+  "publication_date_note": "Code preparation date. Use the actual deposit date if creating a software record.",
   "metadata_format_note": "Human-reviewed upload-form metadata, not an executable Zenodo API request. Author names follow the v15 author list; no ORCID identifiers or repository URLs are invented.",
   "funding": [
     {

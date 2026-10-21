@@ -1,0 +1,22 @@
+{
+  "validation_scheme": "wse_stratified_5fold",
+  "n_splits": 5,
+  "n_repeats": 1,
+  "nominal_calibration_fraction": 0.8,
+  "nominal_validation_fraction": 0.2,
+  "each_observation_validation_count": 1,
+  "WSE_strata_per_QC_group": 5,
+  "base_random_seed": 20260723,
+  "minimum_QC_pass_observations_per_gauge": 7,
+  "minimum_valid_calibration_records_per_fold": 5,
+  "QC": "unchanged V15 retrospective satellite QC",
+  "width_curve_scope": "calibration records only",
+  "hydraulic_model_and_optimizer": "unchanged frozen V15 configuration",
+  "old_repeat_count_10_in_frozen_configuration": "archival provenance only; not used to construct this fivefold experiment",
+  "temporal_validation": false,
+  "full_data_reconstruction": false,
+  "manuscript_modified": false,
+  "primary_summary": "national NSE and RMSE computed independently per fold, then median +/- IQR/2 across five scores",
+  "companion_summary": "single national OOF score and one OOF score per gauge, each observation used once",
+  "privacy": "restricted observation-level Q and all raw fold assignments remain local in private/"
+}

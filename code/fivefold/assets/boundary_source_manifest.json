@@ -1,0 +1,15 @@
+{
+  "archive": "author_supplied/中国国界.rar",
+  "sha256": "2d4dec00cfba645cec8e9ff7cbb3d1bc0ab9780d59ad62b7a4d936bd612bb16f",
+  "shape_sha256": "fbe2e788dd4b1166e18844745a2c335fcd99393093135516140a576f59377ca9",
+  "record_count": 35,
+  "bounds": [
+    73.49899858945263,
+    3.3978889628682105,
+    135.08738720258265,
+    53.56131497236056
+  ],
+  "geometry_asset": "boundary_geometry.json",
+  "geometry_sha256": "66a7187d69b23fef0b65750cee7de36e766847c03d38bb68de45a0cf7aae6e14",
+  "notes": "Author-supplied national boundary used for the manuscript main map and South China Sea inset. This contains no river-gauge records."
+}

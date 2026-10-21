@@ -1,11 +1,11 @@
-# Figure 1 conceptual background
+# Figure 1 assets
 
-`Fig1a_background.png` is the unchanged v2 background used by the final Figure 1 plotting source. It was generated with the built-in image generation tool on 30 September 2026. The river scene is an AI-generated conceptual illustration; it represents neither a surveyed reach nor measured hydraulic observations.
+The current Figure 1 combines conceptual satellite/river artwork, a real ADCP field photograph, a schematic hydraulic cross-section, and a fivefold validation diagram. The river artwork is an AI-generated illustration, not a surveyed study reach or an official NASA/CNES image. Its spacecraft appearance was informed by the previously referenced CNES / Mira Productions illustration; those source rights are unchanged.
 
-The spacecraft appearance references the SWOT cutout previously sourced from NASA PIA25623, credited to CNES / Mira Productions. This generated composite is not an official NASA or CNES image. The original NASA/CNES cutout is not included in this package.
+`USGS_Alvin_ADCP.jpg` is the public-domain photograph by Tim Merrick / USGS, from https://www.usgs.gov/media/images/measuring-boise-river-streamflow-adcp-0 . It illustrates measurement in the Boise River and is not a Chinese study gauge.
 
-The background has a white field and contains no scientific labels, measurement lines, or observation beams. Figure 1 adds the workflow text, hydraulic cross section, and validation diagrams separately.
+`source_Figure_1.png` preserves the source composition used by the current renderer. Only its upper two rows are retained; the renderer constructs the current fivefold bottom row. Its original bottom row is historical and must not be substituted for final `figures/Figure_1.png`.
 
-The package license applies to this project-created illustration only to the extent that the authors hold rights. It does not grant rights to, or claim permission to relicense, the referenced third-party image. Third-party rights remain with their respective owners.
+`Fig1a_background.png` is the older generated conceptual background retained for the legacy method-figure entry point. The final current workflow is `code/run.py fivefold-figures --figures 1`, using `source_Figure_1.png`.
 
-SHA-256: `9d3bf62b3d231a4702ccd4f860754c027258f034903060d2d3de3655ce74d57b`
+The project license applies to author-created elements to the extent that the authors hold rights. Attributed third-party elements retain their original terms. The image hashes and current manuscript correspondence are recorded in figure_manifest.json.

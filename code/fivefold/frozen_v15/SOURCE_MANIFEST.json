@@ -1,0 +1,195 @@
+{
+  "source_project": "standard WSE-stratified fivefold CV 20261019",
+  "scientific_core_location": "code/calibration",
+  "scientific_core_sha256": {
+    "common_support.py": "9d8008a16e683ca977bc1f38f20402da8086d61abd0502f19e5802b25a9f1aa9",
+    "quality_geometry.py": "93c0b6abae9f7303a7975615d031439415212a38835a7a04b14b1959cfe6f171",
+    "revision_audits.py": "109e8e9efa58b1532cd7eea50f3f8228e493afc8413ab0dd5239f401cee18cad",
+    "run_beta_wse0_width0_experiments.py": "4a4e5c444a8bddae5ef7290f1f455e679ae1e0d05d0b962e4d646d190150c43e",
+    "run_review_revision_experiments.py": "3490c19443ae68fe5b42dda9e40ee518eae795ab2e041bc88b94b13423d30b01",
+    "swot_beta_wse0_width0_model.py": "7ff62c5469479333965077864c926925637c8e1aa7d1f9ba2cec86604eb8c7ce",
+    "swot_n_wse0_width0_nonnegative_cv.py": "e8e35585fcdecbea5736e1f78c3b2c17d93726cd741d84653d90000077966a02"
+  },
+  "scientific_core_modified": false,
+  "configuration_changes": "Only external input/output paths relocated to editable examples; scientific settings unchanged. Fivefold allocation is implemented by the new runner, not by changing legacy repeat_count.",
+  "workflow_sources": [
+    {
+      "source": "fivefold_cv_20261019/code/audit_all_assignments.py",
+      "target": "code/fivefold/workflow/audit_all_assignments.py",
+      "source_sha256": "67fc5e540bd7b9597f9ccf113644e4a7a93e542d0d26b35579863b785d5db436",
+      "published_sha256": "9f92ce0708497bb8de2ff0cd504646f70a5f0fa817e0847127db4e75db72b0f8",
+      "portability_changes": [
+        "Baseline QC comparison optional, explicit paths only"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/build_readout.py",
+      "target": "code/fivefold/workflow/build_readout.py",
+      "source_sha256": "c40a219b198bf37f9da05f24f58f661b140d3570a17ba61660c73e04e9954923",
+      "published_sha256": "baa2f89ec6ed9c1150b29ebd293e4d02c16b925478b07aab0f05b66e129881be",
+      "portability_changes": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/build_station_inline.py",
+      "target": "code/fivefold/workflow/build_station_inline.py",
+      "source_sha256": "1c62cd1f923891e2faf69017328092d32ca76d2590ca76f1a876d50db6f8757d",
+      "published_sha256": "d652beebfa4d6b9e9df6e0e1b720f59bf82175dec5d84f26c3cc42af2ae01f4c",
+      "portability_changes": [
+        "External work root",
+        "Readout assets written into external work root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/build_station_readout.py",
+      "target": "code/fivefold/workflow/build_station_readout.py",
+      "source_sha256": "ed78c68bb680fc0540e050f1d07db7f8cc14dd0a7641f3b415edf60f85d0c6b2",
+      "published_sha256": "c8e61cdb68d0415d1c6905826df7b8dabadee80ac67ba8cd741d4b1a52ba277e",
+      "portability_changes": [
+        "External work root",
+        "Readout assets written into external work root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/check_computation_equivalence.py",
+      "target": "code/fivefold/workflow/check_computation_equivalence.py",
+      "source_sha256": "484c51b7c06bb907b3fe5e84a7b7b51f3cd410694401fac61fa4857230d57be3",
+      "published_sha256": "484c51b7c06bb907b3fe5e84a7b7b51f3cd410694401fac61fa4857230d57be3",
+      "portability_changes": []
+    },
+    {
+      "source": "fivefold_cv_20261019/code/check_summary_logic.py",
+      "target": "code/fivefold/workflow/check_summary_logic.py",
+      "source_sha256": "5ae1835645ee0f3cddea4c03548e9ce2079247a0cb7127288cd4e93cd5a992b8",
+      "published_sha256": "5ae1835645ee0f3cddea4c03548e9ce2079247a0cb7127288cd4e93cd5a992b8",
+      "portability_changes": []
+    },
+    {
+      "source": "fivefold_cv_20261019/code/compare_products_fivefold.py",
+      "target": "code/fivefold/workflow/compare_products_fivefold.py",
+      "source_sha256": "c1e09f48fd63663f6f6482b47254bdcb2d145c40eac63d77513dfd17d5ea0d03",
+      "published_sha256": "545a7765eb3624876312f0606e02ed05a55b37c4f3c71fa84f3837f329c0b09d",
+      "portability_changes": [
+        "Explicit product/crosswalk/legacy inputs"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/error_diagnostics_fivefold.py",
+      "target": "code/fivefold/workflow/error_diagnostics_fivefold.py",
+      "source_sha256": "00075e515cbcb8e1ce11f0fb42202343c54fa08b8003c055787f2d43ce0fcb92",
+      "published_sha256": "171cebdb7f55c75afa3b7fca997b01f2cc639a1c0145ae29d03dd84e19522a39",
+      "portability_changes": [
+        "External diagnostic root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/final_independent_audit.py",
+      "target": "code/fivefold/workflow/final_independent_audit.py",
+      "source_sha256": "76a514444bece90255796f1cf587e8642035c15132ab6b7925d061b3597c895b",
+      "published_sha256": "785eb46036955280ad8dd1db76ea9a01e2fcfdbf65bd4ca436e0b49c4270c63f",
+      "portability_changes": [
+        "External work root",
+        "Core hashes checked against repository pinned manifest; numerical settings checked independently of relocated paths"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/finalize_outputs.py",
+      "target": "code/fivefold/workflow/finalize_outputs.py",
+      "source_sha256": "7342fd1ac9cff1e35b247805243f47629da9713405d26e6244673b242d4312c6",
+      "published_sha256": "f71f7815cc2795b5ceb6c3803ae6b1b4b905c34c084ccbfcf2556cffe87c6e1f",
+      "portability_changes": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/freeze_sources.py",
+      "target": "code/fivefold/workflow/freeze_sources.py",
+      "source_sha256": "6f89977b02e84a180d9a5e6518bf92633845716e2533cf51f11df7ed6ba2d6d2",
+      "published_sha256": "ab3af8875bab9250468af197539e1f463d35f2295f49231c16215f8da4e1c126",
+      "portability_changes": [
+        "Provenance helper adapted to explicit inputs and unchanged repository model hashes"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/inspect_primary.py",
+      "target": "code/fivefold/workflow/inspect_primary.py",
+      "source_sha256": "0a3d2b1101f16db7c8c110ebf1abfbb6c55bc9244b95572c984d573e30315e75",
+      "published_sha256": "f9934d1c7a7922ee37e2b70436498a453d89d2a3bd76d9ba6977fdb09a926950",
+      "portability_changes": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/plot_fivefold.py",
+      "target": "code/fivefold/workflow/plot_fivefold.py",
+      "source_sha256": "5ef869572263570f365ae2df6fe6c7fb7ef424fbd854d97b64b5fc5f647b9eb2",
+      "published_sha256": "cb0bd437c6e16b9324d13067458033a411b4543dff052172a8ddac2b68163496",
+      "portability_changes": [
+        "External work root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/review_cv_migration.py",
+      "target": "code/fivefold/workflow/review_cv_migration.py",
+      "source_sha256": "1125f1b683014895395b06d5f37dd8762e8021ac9509f1f75fa9dd06ad95f826",
+      "published_sha256": "2ba1e2df7adc3a3f3d2411cd826c6c6b91ce3c302633e591b5fa2500a53459c5",
+      "portability_changes": [
+        "External work root",
+        "Document paths explicitly supplied; no document artifacts included"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/run_fivefold.py",
+      "target": "code/fivefold/workflow/run_fivefold.py",
+      "source_sha256": "3393694d92a361c8d46459dd06651f244139fdac4cf314b21d0b2a0d43ed8b3c",
+      "published_sha256": "f13ecbb5d5b2dee230a9ce3d424d5107f5a6a6bfa46553ba693051e89ae68d56",
+      "portability_changes": [
+        "External work root",
+        "Use active Python environment",
+        "Reuse unchanged repository calibration modules",
+        "Read explicit effective configuration"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/station_level_analysis.py",
+      "target": "code/fivefold/workflow/station_level_analysis.py",
+      "source_sha256": "3b967bbacd33dd6a4e465f2d188a0894be1509d8abfa99f307ffa7b5a80e790d",
+      "published_sha256": "58783ee68494366e0694e90a40f5f9bdd1627d775001b31db1343a88ec34b111",
+      "portability_changes": [
+        "External work root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/station_metric_drivers.py",
+      "target": "code/fivefold/workflow/station_metric_drivers.py",
+      "source_sha256": "ff3175c3eacf963ef40f3c71df1f42bff0bab9005ce56f6279428e93b844aea0",
+      "published_sha256": "a30638d208e858ac408219755630d8b59192c7f773292c3f2a323146139df10a",
+      "portability_changes": [
+        "External work root"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/summarize_fivefold.py",
+      "target": "code/fivefold/workflow/summarize_fivefold.py",
+      "source_sha256": "1ac2b7e7531c304f38c00004f3ef88faed39703d842253309b3b75dc72a6f017",
+      "published_sha256": "46fddbb14b0eb4f70f4e734ae872fa884c04aef60a08379c9966d8173d0843dd",
+      "portability_changes": [
+        "External work root",
+        "Legacy inputs explicitly optional; no original-drive fallback"
+      ]
+    },
+    {
+      "source": "fivefold_cv_20261019/code/with_dependencies.py",
+      "target": "code/fivefold/workflow/with_dependencies.py",
+      "source_sha256": "0d87f6f80baddbfafac14a6790500704ebde4dc1e5991ee863aae73ab837db1a",
+      "published_sha256": "df4985c2bb25ad2f4a7352550fcea8e2d01acc512510ff161d90733d2131c9ab",
+      "portability_changes": [
+        "Use installed environment; restrict companion path to workflow directory"
+      ]
+    }
+  ]
+}

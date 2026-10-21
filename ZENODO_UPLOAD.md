@@ -1,39 +1,9 @@
-# Zenodo deposit instructions for this local release
+# Optional software deposit
 
-This document describes a future deposit. It is not an upload script.
+This file is preparation guidance, not an upload script. The current repository profile is code and figures, version 1.1.0. It does not restore the deleted aggregate data directory or include restricted observations.
 
-1. Unzip the package and run `python scripts/check_release.py`. Read README.md,
-   the code environment notes, and the data/figure traceability files.
-2. Sign in to Zenodo and create a new upload. Use the title, author order,
-   description, keywords and original product DOIs in metadata/zenodo_metadata.json.
-   Use release version 1.0.0. Resource type Dataset is appropriate for this mixed
-   public aggregate-data/software package. All included files can be public;
-   excluded provider data must not be added as a completeness shortcut.
-3. Add the ZIP and, if useful for record preview, the English README as a
-   separate file. Record CC BY 4.0 for original aggregates/documentation and MIT
-   for study-authored code; describe the scopes in the record. These scopes do
-   not relicense upstream provider datasets or third-party components.
-4. Reserve a DOI. Add the assigned identifier to CITATION.cff (`doi:`),
-   citation.bib (`doi = {...}`), metadata/zenodo_metadata.json, and the record
-   description. Run `python scripts/refresh_manifest.py` and then
-   `python scripts/check_release.py`, and recreate the ZIP after those edits. The
-   refresh utility permits citation/record metadata changes only; changes to
-   research data, figures, code or licenses require a newly validated release. A
-   reserved DOI is not registered until publication of the record.
-5. Preview and check the complete file list before publishing. After publication,
-   check the landing page and file download without being signed in.
-6. Update the manuscript's data/code availability statements, references and
-   corresponding reviewer replies using the actual accessible release DOI.
-   Retain the restriction statement for the excluded gauge/evaluation inputs.
-7. For substantive later file updates create a new Zenodo version and cite the
-   specific version used for the paper. Manuscript revision v15 and data release
-   version 1.0.0 are different identifiers.
+Run `python scripts/check_release.py` before preparing a deposit. Use metadata/zenodo_metadata.json, the current author list, source identifiers and license scopes as a template; verify the actual record and identifiers when depositing. Choose the software resource type for this code version. Retain existing third-party attribution and external-data restrictions.
 
-Official documentation consulted:
-- https://help.zenodo.org/docs/deposit/create-new-upload/
-- https://help.zenodo.org/docs/deposit/manage-versions/
-- https://help.zenodo.org/docs/deposit/describe-records/licenses/
-- https://www.agu.org/publications/authors/journals/data-software-for-authors
+Add a DOI only after the repository service actually assigns it. For citation metadata edits, run the protected refresh_manifest.py and recheck the release. Changes to scientific code or file membership require an explicit new version and a new validation record. Do not overwrite a deposited version with a different analysis while retaining its identifier.
 
-Author names are taken from the v15 manuscript. Add ORCIDs or a later paper DOI
-only when their real identifiers are available; no placeholders are used here.
+Creating a record, uploading files or publishing it is outside this local repository update.

@@ -1,22 +1,9 @@
 {
-  "release": "Manuscript v15",
+  "release": "Manuscript v15 fivefold code",
+  "version": "1.1.0",
+  "prepared_date": "2026-10-21",
+  "scientific_core_note": "Seven model/QC modules exactly match the original source and the fivefold frozen model.",
   "source_files": [
-    {
-      "file": "EDITORIAL_CHANGES.md",
-      "source": "Author-created public v15 documentation",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "884fcd466fc7953dcda5fd22951bdb4c52366d21ab07f81cc2ce8a2cfb3562a5"
-    },
-    {
-      "file": "README.md",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [
-        "Document canonical figure filenames and accurately distinguish scientific-data downloads from schema validation access"
-      ],
-      "published_sha256": "4a5d51178a5f15cf445242da5698c0f56f68532ebacb16cb0386ee876060110c"
-    },
     {
       "file": "calibration/common_support.py",
       "source": "SWOT5_review_code_20260929.zip:SWOT5_review_code_20260929/code/common_support.py",
@@ -97,6 +84,15 @@
       ]
     },
     {
+      "file": "configuration/fivefold.example.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "66faf0fc612f3a9d44e92a2a9a265dc1ba09bcd8915f67a892b9cfe29d320e67",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
       "file": "configuration/postprocessing_v15.json",
       "source": "Saved postprocess configuration",
       "source_sha256": null,
@@ -142,11 +138,24 @@
       ]
     },
     {
+      "file": "EDITORIAL_CHANGES.md",
+      "source": "Author-created public v15 documentation",
+      "source_sha256": null,
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "d2c5bc848cc772ce73fc74e922efd12c3d29b782968cbed10b296527ed2e7099",
+      "previous_version_published_sha256": "884fcd466fc7953dcda5fd22951bdb4c52366d21ab07f81cc2ce8a2cfb3562a5"
+    },
+    {
       "file": "environment/README_EN.md",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "cede49eff2604c0b03ebc7da795d799365565b637d54e9bb633c77a850128306"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "0b52b7502c3b77e2aa12a14cf2ae7710e1eb79db8819475649c2ca258143ba1a",
+      "previous_version_published_sha256": "cede49eff2604c0b03ebc7da795d799365565b637d54e9bb633c77a850128306"
     },
     {
       "file": "environment/requirements_figures.txt",
@@ -154,6 +163,15 @@
       "source_sha256": null,
       "published_sha256": "587f0261d6200702a7c2aa3b2c58848876185d359a8b38a63e6a78397b3dd830",
       "modifications": []
+    },
+    {
+      "file": "environment/requirements_fivefold.txt",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "594b20d9ad5f6a8910346ef675e914263bc4780d28819bcd83726093a0a1b23c",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
     },
     {
       "file": "environment/requirements_main.txt",
@@ -166,8 +184,11 @@
       "file": "environment/third_party_dependencies.json",
       "source": "Installed dependency license metadata",
       "source_sha256": null,
-      "published_sha256": "bd807f98ee20598e9ae19b4f340b81bab24da141881e151194c7b7ba8a56b1d9",
-      "modifications": []
+      "published_sha256": "ced629e2342b83dbfb6e251c9fd5247db6c48568a718414da13856d67f7e2f68",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "bd807f98ee20598e9ae19b4f340b81bab24da141881e151194c7b7ba8a56b1d9"
     },
     {
       "file": "environment/third_party_licenses/certifi-2026.7.22/LICENSE",
@@ -180,8 +201,11 @@
       "file": "environment/third_party_licenses/contourpy-1.4.0/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "0e55e86a8fbf3e9b482ae8dc9e111e1b0dc09a7d300e7f480dda68c1125ed614"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "11401c428c7014a75728e8679f9c000aacf262015aaba65a760d41aa1130b3af",
+      "previous_version_published_sha256": "0e55e86a8fbf3e9b482ae8dc9e111e1b0dc09a7d300e7f480dda68c1125ed614"
     },
     {
       "file": "environment/third_party_licenses/cycler-0.12.1/LICENSE",
@@ -194,8 +218,11 @@
       "file": "environment/third_party_licenses/fonttools-4.66.1/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+      "previous_version_published_sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
     },
     {
       "file": "environment/third_party_licenses/fonttools-4.66.1/LICENSE.external",
@@ -205,13 +232,6 @@
       "published_sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
     },
     {
-      "file": "environment/third_party_licenses/geopandas-1.2.0/LICENSE.txt",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "c60efa15937a5a82a5a2786a26be7452936fffec7a845724db0740e54535c8ea"
-    },
-    {
       "file": "environment/third_party_licenses/geopandas/LICENSE.txt",
       "source": "Installed dependency geopandas 1.1.1 license text",
       "source_sha256": null,
@@ -219,18 +239,21 @@
       "modifications": []
     },
     {
+      "file": "environment/third_party_licenses/geopandas-1.2.0/LICENSE.txt",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "c60efa15937a5a82a5a2786a26be7452936fffec7a845724db0740e54535c8ea"
+    },
+    {
       "file": "environment/third_party_licenses/kiwisolver-1.5.1/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
-    },
-    {
-      "file": "environment/third_party_licenses/matplotlib-3.11.2/LICENSE",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61",
+      "previous_version_published_sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
     },
     {
       "file": "environment/third_party_licenses/matplotlib/LICENSE",
@@ -240,11 +263,31 @@
       "modifications": []
     },
     {
+      "file": "environment/third_party_licenses/matplotlib-3.11.2/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+    },
+    {
       "file": "environment/third_party_licenses/netcdf4/LICENSE",
       "source": "Installed dependency netCDF4 1.7.2 license text",
       "source_sha256": null,
-      "published_sha256": "db31da13043dab1f6e1e6eb6215a20fb0db29dc61968a870250ff4829635257e",
-      "modifications": []
+      "published_sha256": "7fdd0c2647de9ed5aa549c21c46778374867793c2f874497b5480df22c7778ff",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "db31da13043dab1f6e1e6eb6215a20fb0db29dc61968a870250ff4829635257e"
+    },
+    {
+      "file": "environment/third_party_licenses/numpy/LICENSE.txt",
+      "source": "Installed dependency numpy 2.3.1 license text",
+      "source_sha256": null,
+      "published_sha256": "ce8a9f1fd1518b2c2f008148581620ce43980da3b6a2cff73b85d84cc44b71b1",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "233d7ab5c32bc4aed6848f647d397007965acdb691c86fe27d17cc3eb60359d1"
     },
     {
       "file": "environment/third_party_licenses/numpy-2.5.3/COPYING",
@@ -257,29 +300,31 @@
       "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "previous_version_published_sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
     },
     {
       "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE.md",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "previous_version_published_sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
     },
     {
       "file": "environment/third_party_licenses/numpy-2.5.3/LICENSE.txt",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
-    },
-    {
-      "file": "environment/third_party_licenses/numpy/LICENSE.txt",
-      "source": "Installed dependency numpy 2.3.1 license text",
-      "source_sha256": null,
-      "published_sha256": "233d7ab5c32bc4aed6848f647d397007965acdb691c86fe27d17cc3eb60359d1",
-      "modifications": []
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "previous_version_published_sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
     },
     {
       "file": "environment/third_party_licenses/packaging-26.3/LICENSE",
@@ -303,13 +348,6 @@
       "published_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
     },
     {
-      "file": "environment/third_party_licenses/pandas-3.0.6/LICENSE",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae"
-    },
-    {
       "file": "environment/third_party_licenses/pandas/LICENSE",
       "source": "Installed dependency pandas 2.3.1 license text",
       "source_sha256": null,
@@ -317,32 +355,51 @@
       "modifications": []
     },
     {
-      "file": "environment/third_party_licenses/pillow-12.3.0/LICENSE",
+      "file": "environment/third_party_licenses/pandas-3.0.6/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
       "modifications": [],
-      "published_sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+      "published_sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae"
     },
     {
       "file": "environment/third_party_licenses/pillow/LICENSE",
       "source": "Installed dependency pillow 11.3.0 license text",
       "source_sha256": null,
-      "published_sha256": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965",
-      "modifications": []
+      "published_sha256": "20d6760c29dad74a10e15cbbefb0beccbd050c0660ae51324e45db3136d4d93d",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965"
     },
     {
-      "file": "environment/third_party_licenses/pyogrio-0.13.0/LICENSE",
+      "file": "environment/third_party_licenses/pillow-12.3.0/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22"
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef",
+      "previous_version_published_sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
     },
     {
       "file": "environment/third_party_licenses/pyogrio/LICENSE",
       "source": "Installed dependency pyogrio 0.11.0 license text",
       "source_sha256": null,
-      "published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22",
-      "modifications": []
+      "published_sha256": "70b1890ff5193b1c271e0520deb9a197346481fbfac7db3ccb1d736753ab735d",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22"
+    },
+    {
+      "file": "environment/third_party_licenses/pyogrio-0.13.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "70b1890ff5193b1c271e0520deb9a197346481fbfac7db3ccb1d736753ab735d",
+      "previous_version_published_sha256": "d4f257af1744b6dbd7700cebe02830d87e7ef9fe997d2b6262743358acffde22"
     },
     {
       "file": "environment/third_party_licenses/pyparsing-3.3.3/LICENSE",
@@ -352,25 +409,14 @@
       "published_sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
     },
     {
-      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da"
-    },
-    {
-      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE_proj",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "ec8ad0defdbcfac5083e510c000c05a5b63144c685e0a879b7c081b5e44e24c7"
-    },
-    {
       "file": "environment/third_party_licenses/pyproj/LICENSE",
       "source": "Installed dependency pyproj 3.7.1 license text",
       "source_sha256": null,
-      "published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da",
-      "modifications": []
+      "published_sha256": "a652687151814d4c4715445912fcb49e7e58f5b248d47a1a88b859a8815e0822",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da"
     },
     {
       "file": "environment/third_party_licenses/pyproj/LICENSE_proj",
@@ -380,11 +426,31 @@
       "modifications": []
     },
     {
+      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "a652687151814d4c4715445912fcb49e7e58f5b248d47a1a88b859a8815e0822",
+      "previous_version_published_sha256": "c25d436b6fc9009a3d337ca024ed1caf615e55e10f4a0ace1673b9953821c8da"
+    },
+    {
+      "file": "environment/third_party_licenses/pyproj-3.8.0/LICENSE_proj",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "ec8ad0defdbcfac5083e510c000c05a5b63144c685e0a879b7c081b5e44e24c7"
+    },
+    {
       "file": "environment/third_party_licenses/pyshp/LICENSE.TXT",
       "source": "Installed dependency pyshp 2.3.1 license text",
       "source_sha256": null,
-      "published_sha256": "6cfcbf778f6ff3a4dc29e864f5729828c3cfc0ad8140f3e9951a68c4e6dbbdfa",
-      "modifications": []
+      "published_sha256": "a951148796fa34fd8e244cb2c6493c6c589c6a43e3e208aaf00122d738622b33",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "6cfcbf778f6ff3a4dc29e864f5729828c3cfc0ad8140f3e9951a68c4e6dbbdfa"
     },
     {
       "file": "environment/third_party_licenses/python-dateutil-2.9.0.post0/LICENSE",
@@ -404,8 +470,11 @@
       "file": "environment/third_party_licenses/scipy/LICENSE.txt",
       "source": "Installed dependency scipy 1.16.0 license text",
       "source_sha256": null,
-      "published_sha256": "564d63dbef2ef3eb1dec94908966d3edf5f11c487ee2cf2baf8bf3faef01bdd9",
-      "modifications": []
+      "published_sha256": "e6993ffc464425a198e3558f9d76fb888420c42ff0ae95b07a544087754a5995",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "564d63dbef2ef3eb1dec94908966d3edf5f11c487ee2cf2baf8bf3faef01bdd9"
     },
     {
       "file": "environment/third_party_licenses/seaborn/LICENSE.md",
@@ -415,32 +484,14 @@
       "modifications": []
     },
     {
-      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE.txt",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf"
-    },
-    {
-      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_GEOS",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "91a5bb11df4d44bfddc0c68db43681705326107781599fb6c6ff821042072d64"
-    },
-    {
-      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_win32",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "9b30cd1a09789884dd54e5828e31d2bf8e6879034e7cf7b6e0321444cf6dd11d"
-    },
-    {
       "file": "environment/third_party_licenses/shapely/LICENSE.txt",
       "source": "Installed dependency shapely 2.1.1 license text",
       "source_sha256": null,
-      "published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf",
-      "modifications": []
+      "published_sha256": "4a207eac9bf257ed286e1c6f0fce253d1abfdb134fc61ec855e37f5692a3f754",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf"
     },
     {
       "file": "environment/third_party_licenses/shapely/LICENSE_GEOS",
@@ -457,6 +508,30 @@
       "modifications": []
     },
     {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE.txt",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "4a207eac9bf257ed286e1c6f0fce253d1abfdb134fc61ec855e37f5692a3f754",
+      "previous_version_published_sha256": "e8cd7d34604d2758ff589f0f34d6ed79c3f7fb14aaf5e12fb09221421391a3bf"
+    },
+    {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_GEOS",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "91a5bb11df4d44bfddc0c68db43681705326107781599fb6c6ff821042072d64"
+    },
+    {
+      "file": "environment/third_party_licenses/shapely-2.1.2/LICENSE_win32",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "9b30cd1a09789884dd54e5828e31d2bf8e6879034e7cf7b6e0321444cf6dd11d"
+    },
+    {
       "file": "environment/third_party_licenses/six-1.17.0/LICENSE",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
@@ -467,8 +542,11 @@
       "file": "environment/third_party_licenses/statsmodels/LICENSE.txt",
       "source": "Installed dependency statsmodels 0.14.5 license text",
       "source_sha256": null,
-      "published_sha256": "0897212c24b09ba69c4917490d8828081d60bb4303ec0045e553a9e470f38efa",
-      "modifications": []
+      "published_sha256": "1ca78e1dec9dcebc55f3b96a862317f23e76422c5fc943568d955aad1f6b5fad",
+      "modifications": [
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "0897212c24b09ba69c4917490d8828081d60bb4303ec0045e553a9e470f38efa"
     },
     {
       "file": "environment/third_party_licenses/tzdata-2026.5/LICENSE",
@@ -523,19 +601,300 @@
       "file": "figures/plot_helpers.py",
       "source": "SWOT_Figures_focused_20261007.zip:source/build_figures_previous.py",
       "source_sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929",
-      "published_sha256": "9cab3c776bc4c71f1ec862538b9fee8ae1c0cd0459e10513d09aaa6e459f2f30",
+      "published_sha256": "51346f26464ad2b223b6d3fdb7f61250012e69745c62474b57162beaff490bb6",
       "modifications": [
         "Kept helpers and SoS/width/parameter figure functions used by v15; removed unused legacy gallery/concept functions; path defaults relative",
-        "Updated docstring command reference to public entry point"
-      ]
+        "Updated docstring command reference to public entry point",
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "9cab3c776bc4c71f1ec862538b9fee8ae1c0cd0459e10513d09aaa6e459f2f30"
     },
     {
       "file": "figures/prepare_data.py",
       "source": "SWOT_Figures_focused_20261007.zip:source/prepare_data_previous.py",
       "source_sha256": "7fcaecf75c0bf107000c48ba1d078e9a8767ec5db85f6a86142871ae0904fe09",
-      "published_sha256": "e6194603f280820993c6c800a0d2d3fd82831f6f6302514c40e7ec19df5360e0",
+      "published_sha256": "29235b2edef2b7cac6270f21a9267ea1718b4dd9b3b036c7ad563126fde67b89",
       "modifications": [
-        "Absolute defaults made relative; removed diagnostic stdout values; calculations unchanged"
+        "Absolute defaults made relative; removed diagnostic stdout values; calculations unchanged",
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "previous_version_published_sha256": "e6194603f280820993c6c800a0d2d3fd82831f6f6302514c40e7ec19df5360e0"
+    },
+    {
+      "file": "fivefold/assets/boundary_geometry.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "66a7187d69b23fef0b65750cee7de36e766847c03d38bb68de45a0cf7aae6e14",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/assets/boundary_source_manifest.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "e5901846aea2c48f6be5f9270a538e4cdcb894d5033dee62207b24c742b9d8f9",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/build_figures.py",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "1e8df66dfa610b582a95adc8aa80c415d50596b5b857a434d9046016dd981ff1",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/cli.py",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "5258f3710eaa39e2bb0d7e7c2c48585028cc90bf180de9c494fcd5566a86b87d",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/FIGURES.md",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "ee8284432836c38ef0bdb7462cc9b50722948e5a3cf20da3149701462c7fd2f0",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/fivefold_design.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "28a9d0f75eae5794caa7efee4a9e2c7fbd1d12326c75027e13006ac041f55889",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/frozen_v15/configuration/calibration_v15.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "66faf0fc612f3a9d44e92a2a9a265dc1ba09bcd8915f67a892b9cfe29d320e67",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/frozen_v15/SOURCE_MANIFEST.json",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "c20a342c9e5e4b2a60e3b387a9078f0ff6bad8db80abf955937fefe651c120ce",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/README.md",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "0385f96289df743de905878c9550bb69907f001c5a90bb369f2648351056e7fa",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/tests/test_fivefold.py",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "68cd5a470a55d5049448257d2f99d2ddc7a5fbfa3af7bf7d49dfed876acfc665",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/workflow/_paths.py",
+      "source": "Author-created fivefold portability, plotting, test, configuration or documentation integration",
+      "source_sha256": null,
+      "published_sha256": "492dfff6ac34c5d59e9e408b5a6aa3591ed0f1deda4779cf1bae3459657d7d1a",
+      "modifications": [
+        "Version 1.1.0 integration; external inputs and outputs only."
+      ]
+    },
+    {
+      "file": "fivefold/workflow/audit_all_assignments.py",
+      "source": "fivefold_cv_20261019/code/audit_all_assignments.py",
+      "source_sha256": "67fc5e540bd7b9597f9ccf113644e4a7a93e542d0d26b35579863b785d5db436",
+      "published_sha256": "9f92ce0708497bb8de2ff0cd504646f70a5f0fa817e0847127db4e75db72b0f8",
+      "modifications": [
+        "Baseline QC comparison optional, explicit paths only"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/build_readout.py",
+      "source": "fivefold_cv_20261019/code/build_readout.py",
+      "source_sha256": "c40a219b198bf37f9da05f24f58f661b140d3570a17ba61660c73e04e9954923",
+      "published_sha256": "baa2f89ec6ed9c1150b29ebd293e4d02c16b925478b07aab0f05b66e129881be",
+      "modifications": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/build_station_inline.py",
+      "source": "fivefold_cv_20261019/code/build_station_inline.py",
+      "source_sha256": "1c62cd1f923891e2faf69017328092d32ca76d2590ca76f1a876d50db6f8757d",
+      "published_sha256": "d652beebfa4d6b9e9df6e0e1b720f59bf82175dec5d84f26c3cc42af2ae01f4c",
+      "modifications": [
+        "External work root",
+        "Readout assets written into external work root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/build_station_readout.py",
+      "source": "fivefold_cv_20261019/code/build_station_readout.py",
+      "source_sha256": "ed78c68bb680fc0540e050f1d07db7f8cc14dd0a7641f3b415edf60f85d0c6b2",
+      "published_sha256": "c8e61cdb68d0415d1c6905826df7b8dabadee80ac67ba8cd741d4b1a52ba277e",
+      "modifications": [
+        "External work root",
+        "Readout assets written into external work root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/check_computation_equivalence.py",
+      "source": "fivefold_cv_20261019/code/check_computation_equivalence.py",
+      "source_sha256": "484c51b7c06bb907b3fe5e84a7b7b51f3cd410694401fac61fa4857230d57be3",
+      "published_sha256": "484c51b7c06bb907b3fe5e84a7b7b51f3cd410694401fac61fa4857230d57be3",
+      "modifications": []
+    },
+    {
+      "file": "fivefold/workflow/check_summary_logic.py",
+      "source": "fivefold_cv_20261019/code/check_summary_logic.py",
+      "source_sha256": "5ae1835645ee0f3cddea4c03548e9ce2079247a0cb7127288cd4e93cd5a992b8",
+      "published_sha256": "5ae1835645ee0f3cddea4c03548e9ce2079247a0cb7127288cd4e93cd5a992b8",
+      "modifications": []
+    },
+    {
+      "file": "fivefold/workflow/compare_products_fivefold.py",
+      "source": "fivefold_cv_20261019/code/compare_products_fivefold.py",
+      "source_sha256": "c1e09f48fd63663f6f6482b47254bdcb2d145c40eac63d77513dfd17d5ea0d03",
+      "published_sha256": "545a7765eb3624876312f0606e02ed05a55b37c4f3c71fa84f3837f329c0b09d",
+      "modifications": [
+        "Explicit product/crosswalk/legacy inputs"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/error_diagnostics_fivefold.py",
+      "source": "fivefold_cv_20261019/code/error_diagnostics_fivefold.py",
+      "source_sha256": "00075e515cbcb8e1ce11f0fb42202343c54fa08b8003c055787f2d43ce0fcb92",
+      "published_sha256": "171cebdb7f55c75afa3b7fca997b01f2cc639a1c0145ae29d03dd84e19522a39",
+      "modifications": [
+        "External diagnostic root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/final_independent_audit.py",
+      "source": "fivefold_cv_20261019/code/final_independent_audit.py",
+      "source_sha256": "76a514444bece90255796f1cf587e8642035c15132ab6b7925d061b3597c895b",
+      "published_sha256": "785eb46036955280ad8dd1db76ea9a01e2fcfdbf65bd4ca436e0b49c4270c63f",
+      "modifications": [
+        "External work root",
+        "Core hashes checked against repository pinned manifest; numerical settings checked independently of relocated paths"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/finalize_outputs.py",
+      "source": "fivefold_cv_20261019/code/finalize_outputs.py",
+      "source_sha256": "7342fd1ac9cff1e35b247805243f47629da9713405d26e6244673b242d4312c6",
+      "published_sha256": "f71f7815cc2795b5ceb6c3803ae6b1b4b905c34c084ccbfcf2556cffe87c6e1f",
+      "modifications": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/freeze_sources.py",
+      "source": "fivefold_cv_20261019/code/freeze_sources.py",
+      "source_sha256": "6f89977b02e84a180d9a5e6518bf92633845716e2533cf51f11df7ed6ba2d6d2",
+      "published_sha256": "ab3af8875bab9250468af197539e1f463d35f2295f49231c16215f8da4e1c126",
+      "modifications": [
+        "Provenance helper adapted to explicit inputs and unchanged repository model hashes"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/inspect_primary.py",
+      "source": "fivefold_cv_20261019/code/inspect_primary.py",
+      "source_sha256": "0a3d2b1101f16db7c8c110ebf1abfbb6c55bc9244b95572c984d573e30315e75",
+      "published_sha256": "f9934d1c7a7922ee37e2b70436498a453d89d2a3bd76d9ba6977fdb09a926950",
+      "modifications": [
+        "External work root",
+        "Use active Python environment"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/plot_fivefold.py",
+      "source": "fivefold_cv_20261019/code/plot_fivefold.py",
+      "source_sha256": "5ef869572263570f365ae2df6fe6c7fb7ef424fbd854d97b64b5fc5f647b9eb2",
+      "published_sha256": "cb0bd437c6e16b9324d13067458033a411b4543dff052172a8ddac2b68163496",
+      "modifications": [
+        "External work root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/review_cv_migration.py",
+      "source": "fivefold_cv_20261019/code/review_cv_migration.py",
+      "source_sha256": "1125f1b683014895395b06d5f37dd8762e8021ac9509f1f75fa9dd06ad95f826",
+      "published_sha256": "2ba1e2df7adc3a3f3d2411cd826c6c6b91ce3c302633e591b5fa2500a53459c5",
+      "modifications": [
+        "External work root",
+        "Document paths explicitly supplied; no document artifacts included"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/run_fivefold.py",
+      "source": "fivefold_cv_20261019/code/run_fivefold.py",
+      "source_sha256": "3393694d92a361c8d46459dd06651f244139fdac4cf314b21d0b2a0d43ed8b3c",
+      "published_sha256": "f13ecbb5d5b2dee230a9ce3d424d5107f5a6a6bfa46553ba693051e89ae68d56",
+      "modifications": [
+        "External work root",
+        "Use active Python environment",
+        "Reuse unchanged repository calibration modules",
+        "Read explicit effective configuration"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/station_level_analysis.py",
+      "source": "fivefold_cv_20261019/code/station_level_analysis.py",
+      "source_sha256": "3b967bbacd33dd6a4e465f2d188a0894be1509d8abfa99f307ffa7b5a80e790d",
+      "published_sha256": "58783ee68494366e0694e90a40f5f9bdd1627d775001b31db1343a88ec34b111",
+      "modifications": [
+        "External work root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/station_metric_drivers.py",
+      "source": "fivefold_cv_20261019/code/station_metric_drivers.py",
+      "source_sha256": "ff3175c3eacf963ef40f3c71df1f42bff0bab9005ce56f6279428e93b844aea0",
+      "published_sha256": "a30638d208e858ac408219755630d8b59192c7f773292c3f2a323146139df10a",
+      "modifications": [
+        "External work root"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/summarize_fivefold.py",
+      "source": "fivefold_cv_20261019/code/summarize_fivefold.py",
+      "source_sha256": "1ac2b7e7531c304f38c00004f3ef88faed39703d842253309b3b75dc72a6f017",
+      "published_sha256": "46fddbb14b0eb4f70f4e734ae872fa884c04aef60a08379c9966d8173d0843dd",
+      "modifications": [
+        "External work root",
+        "Legacy inputs explicitly optional; no original-drive fallback"
+      ]
+    },
+    {
+      "file": "fivefold/workflow/with_dependencies.py",
+      "source": "fivefold_cv_20261019/code/with_dependencies.py",
+      "source_sha256": "0d87f6f80baddbfafac14a6790500704ebde4dc1e5991ee863aae73ab837db1a",
+      "published_sha256": "df4985c2bb25ad2f4a7352550fcea8e2d01acc512510ff161d90733d2131c9ab",
+      "modifications": [
+        "Use installed environment; restrict companion path to workflow directory"
       ]
     },
     {
@@ -594,20 +953,26 @@
       ]
     },
     {
+      "file": "README.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [
+        "Document canonical figure filenames and accurately distinguish scientific-data downloads from schema validation access",
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
+      ],
+      "published_sha256": "5fe832284d0672fc059885102531356038e1463859a43b5579ba7d37f6f0276d",
+      "previous_version_published_sha256": "4a5d51178a5f15cf445242da5698c0f56f68532ebacb16cb0386ee876060110c"
+    },
+    {
       "file": "run.py",
       "source": "Author-created v15 public entry point/documentation or installed dependency notice",
       "source_sha256": null,
       "modifications": [
-        "Add canonical manuscript-named copies of generated statistical/diagnostic figures; rendering calculations unchanged"
+        "Add canonical manuscript-named copies of generated statistical/diagnostic figures; rendering calculations unchanged",
+        "Version 1.1.0: current fivefold entry points, documentation or provenance integration; original calibration core unchanged."
       ],
-      "published_sha256": "800fda1a9a3e818ca7b510fd2b4c62884205246907984716d1da031897645084"
-    },
-    {
-      "file": "upstream/README_EN.md",
-      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
-      "source_sha256": null,
-      "modifications": [],
-      "published_sha256": "6152e59dd269612d420e6b9a9bf60533037f1b4c0c7f2ea8e3bb898fdfb554e0"
+      "published_sha256": "5f4fb27446a0592510aff117d815df53f3b778c81f2e8f81232b1ce9978d4d43",
+      "previous_version_published_sha256": "800fda1a9a3e818ca7b510fd2b4c62884205246907984716d1da031897645084"
     },
     {
       "file": "upstream/audit_sword_v16_v17b.py",
@@ -653,6 +1018,13 @@
       "modifications": [
         "Absolute default paths made relative; numerical/download logic unchanged"
       ]
+    },
+    {
+      "file": "upstream/README_EN.md",
+      "source": "Author-created v15 public entry point/documentation or installed dependency notice",
+      "source_sha256": null,
+      "modifications": [],
+      "published_sha256": "6152e59dd269612d420e6b9a9bf60533037f1b4c0c7f2ea8e3bb898fdfb554e0"
     },
     {
       "file": "upstream/run_pipeline.py",
@@ -762,7 +1134,5 @@
         "Absolute default paths made relative; numerical/download logic unchanged"
       ]
     }
-  ],
-  "changes_scope": "See EDITORIAL_CHANGES.md; ten calibration/model/QC/validation/check files byte-identical; other changes limited to paths, entry points, v15 figure selection/naming, and documentation",
-  "numerical_rerun_performed": false
+  ]
 }

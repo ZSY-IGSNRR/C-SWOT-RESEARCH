@@ -1,1181 +1,203 @@
 {
-  "schema_version": 1,
-  "package_date": "2026-10-12",
+  "schema_version": 2,
+  "package_date": "2026-10-21",
+  "code_version": "1.1.0",
   "manuscript_authority": {
-    "filename": "SZ-SWOT-15_language_polished_clean.docx",
-    "sha256": "b6ac58c9c969423620a44c3417d0a9694f44327601be101f1047f8a2feaddbd8",
-    "included_in_this_figure_folder": false
+    "filename": "SZ-SWOT-15_fivefold_CLEAN_EN_20261021.docx",
+    "sha256": "ef441b4fc3ec350d256b66ae5bbad1475b2c3eb595d25a64861006ace8ebacd5",
+    "included": false
   },
-  "numbering_rule": "Actual v15 captions determine numbering. Historical F06_extreme_errors_width is Figure 5; F05_official_comparison is Figure 6.",
-  "hash_algorithm": "SHA-256",
-  "raster_images_reencoded": false,
-  "excluded_material": [
-    "Manuscript and reviewer-response files",
-    "Original gauge time series",
-    "Observation-level measured or predicted Q tables",
-    "Original third-party SWOT satellite cutout",
-    "Historical research-question concept diagrams and their drawio/PDF/SVG versions",
-    "Figure 3 native vectors containing observation-level Q coordinates"
-  ],
-  "assets": [
-    {
-      "file": "assets/Fig1a_background.png",
-      "sha256": "9d3bf62b3d231a4702ccd4f860754c027258f034903060d2d3de3655ce74d57b",
-      "pixel_size": [
-        1536,
-        1024
-      ],
-      "source_name": "Fig1a_concept_background_v2.png",
-      "type": "AI-generated conceptual composite",
-      "notes_file": "assets/asset_notes.md"
-    }
-  ],
+  "current_numbering": "Figures 1–7 in the 21 October fivefold manuscript; legacy_v1_0_0 is historical.",
   "figures": [
     {
       "id": "Figure 1",
-      "title": "Workflow for locally calibrated SWOT discharge estimation",
-      "purpose": "Describe the observation, local calibration, and retrospective validation workflow.",
-      "caption": "Figure 1. Workflow for locally calibrated SWOT discharge estimation. (a) SWOT water surface elevation (WSE), width, and surface slope are matched with available gauge discharge at each station. (b) Calibration WSE and width observations define W(h), and gauge discharge constrains effective geometry, the area-increment coefficient β, and Manning resistance n. The resulting A(h), W(h), and slope enter the modified Manning equation. (c) WSE-stratified validation assigns calibration and validation observations across five water-level strata. Forward temporal validation fits earlier records and evaluates later blocks, expanding the calibration record between blocks. Filled blue and open orange marks represent calibration and validation observations. Validation WSE is classified as below, within, or above the calibration range. Parameters and W(h) remain fixed during each validation block. Both evaluations are retrospective because satellite QC uses the complete record. The river scene, cross section, and validation diagrams are conceptual illustrations.",
-      "caption_sha256_utf8": "e9e0fb3f2bc3ed986f0f86909afae510ae70cd7b6beb4c683cd3c31dd306e450",
-      "docx_media_entry": "word/media/image10.png",
-      "docx_body_paragraph_index": 25,
-      "pixel_size": [
-        2840,
-        2020
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "caption": "Figure 1. Conceptual workflow and hydraulic parameterization of Manning-based SWOT discharge estimation. (a) SWOT provides water surface elevation (WSE), width, and slope, while gauge discharge supports local calibration. The field photograph illustrates discharge measurement (Tim Merrick/USGS). (b) Observation screening, width correction, and effective channel geometry. Red crosses denote observations excluded by quality control; red dashed segments with open circles indicate anomalous widths requiring adjustment. Green segments show usable widths after screening and correction. Brown shading represents the effective base area A₀, parameterized by WSE₀ and width₀. Blue shading represents the unscaled area increment obtained by integrating corrected width above the minimum calibration WSE, hmin. The coefficient β scales this increment, and n controls hydraulic resistance in the discharge equation. Cross-sections are schematic. (c) QC-retained observations are assigned to five folds within five WSE strata. Each fold is validated using a model calibrated on the other four, and each observation is validated once. Validation observations are classified as below, within, or above their gauge-specific calibration WSE range. Width relationships and hydraulic parameters remain fixed during validation.",
       "files": [
         {
           "file": "Figure_1.png",
-          "format": "PNG",
-          "sha256": "6fbfd0516514081b01d16f7794feee45f1a41ff7bfdb59c26b663b9f38b68c23",
-          "bytes": 2210951,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "b2f2371625ab683bc2b4770a40f2db43891078ea334d2ab0aa6a212ed404167e",
+          "bytes": 1484053,
+          "source": "fivefold_manuscript/figures/Figure_1.png"
         },
         {
           "file": "Figure_1.svg",
-          "format": "SVG",
-          "sha256": "da50470dce94f36ba66d448e13af05d3969dc5418a2dfa4d853051d4a8e45b7b",
-          "bytes": 206779,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "06ab1fa4140f39cad43a0fec8f3553d41840f5210abf6ff2d05c5ae8db8cb7ba",
+          "bytes": 1430649,
+          "source": "fivefold_manuscript/figures/Figure_1.svg"
+        },
+        {
+          "file": "Figure_1.pdf",
+          "sha256": "afc8871da23b3c4912b0cb7da4109f6b70502990020145f310bc73294f9b2860",
+          "bytes": 1000114,
+          "source": "fivefold_manuscript/figures/Figure_1.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "Figure1_workflow.png",
-        "matching_source_png_sha256": "6fbfd0516514081b01d16f7794feee45f1a41ff7bfdb59c26b663b9f38b68c23",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "Figure1_workflow.svg",
-            "sha256": "da50470dce94f36ba66d448e13af05d3969dc5418a2dfa4d853051d4a8e45b7b"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "figure1_20261010/build_figure.py",
-            "sha256": "d9c6d0acf71754d2236059125ea135b6124ce97afd082fa4c22cbd11e50f1b88"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found.",
-        "missing_proven_consistent_formats": [
-          "Native PDF",
-          "drawio"
-        ],
-        "background_asset_sha256": "9d3bf62b3d231a4702ccd4f860754c027258f034903060d2d3de3655ce74d57b"
-      },
-      "public_reproduction": {
-        "status": "conceptual_rebuild",
-        "can_redraw_from_public_aggregates": true,
-        "public_aggregate_inputs": [],
-        "reproducible_panels": [
-          "a",
-          "b",
-          "c"
-        ],
-        "omitted_inputs": [],
-        "notes": "Conceptual workflow; no measured Q inputs. Uses the included generated background and the Figure 1 source provided in the code package. Exact PNG bytes are supplied independently of plotting-library or font differences.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {}
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only."
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
       "id": "Figure 2",
-      "title": "Data support and the contribution of local calibration",
-      "purpose": "Show usable data support, controlled model-component comparisons, and the effect of calibration sample count.",
-      "caption": "Figure 2. Data support and the contribution of local calibration. (a) Numbers of retained observations at the 542 full-record calibration stations, with hydrological boundaries for geographic context. (b) Numbers of station-overpasses at successive stages of data preparation; the horizontal axis is logarithmic. (c) Six principal model comparisons using identical held-out observations within each WSE assignment. Paired NSE differences are first summarized across assignments at each station and then by the median across stations. Points show this median, and bars show 95% intervals from 2,000 whole-station bootstrap resamples. Positive values favor the full model. The empirical WSE–Q baseline is highlighted, and Table S1 reports all ten comparisons. The fixed-geometry n-only alternative is a simplified local comparator. (d) Nested WSE-balanced calibration subsets of increasing size are evaluated against the same holdout from the first assignment. Results use 56 common stations, 55 of which have valid NSE; the shaded band shows the across-station interquartile range.",
-      "caption_sha256_utf8": "d2ecf73adaadca1b9eab317f25d080490a38cdae69fed26a48595d8cfde3c15e",
-      "docx_media_entry": "word/media/image2.png",
-      "docx_body_paragraph_index": 79,
-      "pixel_size": [
-        2840,
-        2480
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "caption": "Figure 2. Data screening and use. (a) Locations of 542 calibration gauges, colored by the number of QC-retained overpasses. Basin boundaries provide geographical context. (b) Unique gauge-overpass counts at successive data-preparation stages, including the seven-record requirement for fivefold CV. The fivefold subset contains 7,615 observations at 422 gauges.",
       "files": [
         {
           "file": "Figure_2.png",
-          "format": "PNG",
-          "sha256": "818bfa82b8da0d643525b3f4515662c1323fd494eb20e0fd9e9f55da16d45985",
-          "bytes": 574797,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "31bae076af54e57f3493a603207a0fe8e19ee68dd67fac15ba8c94dc9697c069",
+          "bytes": 452010,
+          "source": "fivefold_manuscript/figures/Figure_2.png"
         },
         {
           "file": "Figure_2.svg",
-          "format": "SVG",
-          "sha256": "9c761efda73ad6c08ccf6a163d40925ba39f923973adda2f9ac947530e559c08",
-          "bytes": 3208599,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "2ec24afb946c9ee8bedd7d07605b9d9a9afc477ef31af1d5fca721fb9178128b",
+          "bytes": 1683280,
+          "source": "fivefold_manuscript/figures/Figure_2.svg"
         },
         {
           "file": "Figure_2.pdf",
-          "format": "PDF",
-          "sha256": "ea1eb673f7093ee9e3241198f345d0e028f78df4816c3d25c7daf24ec5390337",
-          "bytes": 1083644,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "b0d8a9699d6ae72b1dbdab030a34c65900c44fd6d1afea6450d0eee318672e75",
+          "bytes": 504875,
+          "source": "fivefold_manuscript/figures/Figure_2.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "F02_sparse_constraints.png",
-        "matching_source_png_sha256": "818bfa82b8da0d643525b3f4515662c1323fd494eb20e0fd9e9f55da16d45985",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "F02_sparse_constraints.svg",
-            "sha256": "9c761efda73ad6c08ccf6a163d40925ba39f923973adda2f9ac947530e559c08"
-          },
-          {
-            "source_export_name": "F02_sparse_constraints.pdf",
-            "sha256": "ea1eb673f7093ee9e3241198f345d0e028f78df4816c3d25c7daf24ec5390337"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "partial",
-        "can_redraw_from_public_aggregates": "partial",
-        "public_aggregate_inputs": [
-          "data/qc_counts.csv",
-          "data/ablation_paired_summary.csv",
-          "data/calibration_sample_size.csv"
-        ],
-        "reproducible_panels": [
-          "b",
-          "c",
-          "d"
-        ],
-        "omitted_inputs": [
-          "Station coordinates and retained-observation counts used in panel a; geographic boundary layer."
-        ],
-        "notes": "Panels b–d use public count and summary tables. Panel a is available as the final graphic; the map inputs are not released as a station table.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/qc_counts.csv": "f2a70683a6f17cfb5f3606b0892cf304ef7e708cdf119808d9c5ba66c4548ec8",
-          "data/ablation_paired_summary.csv": "f43e6b08fea95fb6cc4f90dcf53f019eb89fe166ae7a517cd686794f9a2f9f04",
-          "data/calibration_sample_size.csv": "8e7c5d22bdff2b6dd098ff9cbf63d86b3fdc7b076060ad2c8db105acf462b37b"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 1.4288839797618276
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
       "id": "Figure 3",
-      "title": "Discharge estimation under WSE-stratified and forward temporal validation",
-      "purpose": "Show validation accuracy, differences between station and pooled summaries, and sensitivity to WSE assignments.",
-      "caption": "Figure 3. Discharge estimation under WSE-stratified and forward temporal validation. (a) Station NSE for WSE-stratified observations within the calibration range, summarized across assignments. Each eligible assignment requires at least five pairs and nonzero variation in both observed and estimated discharge. NSE values below −1 share the lowest color class. (b) Each plotted estimate is the median of repeated predictions from assignments in which that observation fell within the calibration WSE range. The lower strip includes estimates below 0.01 m³ s⁻¹, and R² and NSE are calculated on the original discharge scale. (c) Distributions of station NSE for within-range WSE tests, all WSE tests, and all temporal tests; each group includes its own eligible station sample. (d) Within-range pooled NSE and all-state median station NSE for each of the ten WSE assignments. The series use different validation subsets and aggregation levels and illustrate sensitivity to the calibration–validation assignment.",
-      "caption_sha256_utf8": "08790c9d6015ba4fcbb9525a1a698cd2f97159acf6f88f2d679183bc2976e104",
-      "docx_media_entry": "word/media/image3.png",
-      "docx_body_paragraph_index": 88,
-      "pixel_size": [
-        2840,
-        2200
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "caption": "Figure 3. WSE-based width correction. (a) Gauge-level Pearson r between original SWOT WSE and daily gauge water level Z at 422 CV gauges, using 7,615 same-day pairs. The quoted spread is IQR/2 across gauges. (b) Calibration anchors and corrected curve at gauge 30700300 in fold 3. (c–d) NSE and RMSE for four configurations combining observed or corrected widths with fixed or jointly calibrated hydraulic parameters. Fixed controls use reference n, β = 1, and the geometry rule in Section 2.7. All configurations use identical validation observations. Blue circles include all WSE states and orange triangles select within-range observations. Points and whiskers show medians and Q25–Q75 across five fold scores. NSE uses a symmetric-log axis and RMSE a logarithmic axis. Light points show individual fold scores.",
       "files": [
         {
           "file": "Figure_3.png",
-          "format": "PNG",
-          "sha256": "568d62aece8338e4ba8658899ee13a5e9bf6bad78d16f089338b4653bf78ba4f",
-          "bytes": 701848,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "2e31cec463d941e7b287b511360725cbcb8c6dc1cbb6729cca8146bf95ee6904",
+          "bytes": 378699,
+          "source": "fivefold_manuscript/figures/Figure_3.png"
+        },
+        {
+          "file": "Figure_3.svg",
+          "sha256": "7943f16d7e220feaaaeebbef76481ebf5a42a8ecf5328aae1c5d099c62fdb9cc",
+          "bytes": 83849,
+          "source": "fivefold_manuscript/figures/Figure_3.svg"
+        },
+        {
+          "file": "Figure_3.pdf",
+          "sha256": "d3fc9d82383f96962d494ba45488499c1e2228d70165f8f20f1923dd0507c59c",
+          "bytes": 70556,
+          "source": "fivefold_manuscript/figures/Figure_3.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "F03_unused_states.png",
-        "matching_source_png_sha256": "568d62aece8338e4ba8658899ee13a5e9bf6bad78d16f089338b4653bf78ba4f",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found.",
-        "excluded_native_vectors": [
-          "F03_unused_states.svg",
-          "F03_unused_states.pdf"
-        ]
-      },
-      "public_reproduction": {
-        "status": "partial",
-        "can_redraw_from_public_aggregates": "partial",
-        "public_aggregate_inputs": [
-          "data/validation_overall_by_assignment.csv",
-          "data/validation_domain_by_assignment.csv"
-        ],
-        "reproducible_panels": [
-          "d"
-        ],
-        "omitted_inputs": [
-          "Station coordinates and within-range station NSE for panel a.",
-          "Observation-level observed and estimated Q for panel b.",
-          "Individual station NSE values underlying the exact CDFs in panel c."
-        ],
-        "notes": "Only panel d has the required numerical summaries in the public package. The authoritative PNG preserves the complete final graphic. Native SVG/PDF are withheld because panel b retains recoverable observation-level Q coordinates. For panel d, select method=full and validation_scheme=wse_stratified in validation_overall_by_assignment.csv; use side=Inside rows of the WSE-stratified domain table.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/validation_overall_by_assignment.csv": "220238ba5309ca89cce24eac58ce39bbcfab930c77846f9fe2ef354c439e9cd8",
-          "data/validation_domain_by_assignment.csv": "b6e3c37b27afd44c0ba61150084d7cb53855d2a4b23f0b64561929c72fa79528"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content."
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
       "id": "Figure 4",
-      "title": "Error within and beyond the calibration WSE boundaries",
-      "purpose": "Show error dependence on calibration WSE coverage and normalized extrapolation distance.",
-      "caption": "Figure 4. Error within and beyond the calibration WSE boundaries. (a–b) Pooled NSE and MdAPE for validation observations below, within, and above the calibration range. WSE statistics are medians of the ten per-assignment pooled summaries, and temporal statistics combine later test blocks. (c–d) Factor error versus distance beyond the nearest calibration boundary. Distance is divided by the positive calibration WSE span and separated into bins with boundaries at 0.25, 0.5, and 1. Discharge factor error is max(Qestimated/Qobserved, Qobserved/Qestimated). For the station-balanced summaries, absolute log ratios are first summarized within each station-assignment and then within each station. The across-station median is exponentiated to express the result as a multiplicative factor. Bars show 95% intervals from 2,000 whole-station bootstrap resamples, and labels give station counts. An arrow indicates an interval extending beyond the plotted scale; the upper limit is 9.53 × 10¹⁶ for the nine-station WSE below-range >1 bin. Predictions are evaluated with their original fitted parameters. Station and event samples and calibration WSE spans can vary among distance bins.",
-      "caption_sha256_utf8": "ac087901c7983f2f837787e03336b33d173e21576940fe9fdf25d5aed1ba0c95",
-      "docx_media_entry": "word/media/image4.png",
-      "docx_body_paragraph_index": 95,
-      "pixel_size": [
-        2840,
-        2280
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "caption": "Figure 4. WSE-stratified fivefold CV and hydraulic calibration. (a–b) NSE and RMSE calculated from the combined validation pairs separately in each fold. Every observation is validated once. (c–d) Component comparisons on identical validation observations, contrasting the full model with calibrated n and fixed geometry, fixed reference n, or β = 1. Blue circles include all WSE states, and orange triangles indicate observations within their own calibration WSE range. Points in (c–d) are medians across five folds and whiskers are Q25–Q75. The NSE axes use a symmetric-log scale and the RMSE axes a logarithmic scale. The fixed-geometry alternative still uses local discharge to calibrate n. Light points show individual fold scores.",
       "files": [
         {
           "file": "Figure_4.png",
-          "format": "PNG",
-          "sha256": "fca18ffd8d2c961a19887f575ec573fb53171de3615bcd3a85ab9cc3d43aef43",
-          "bytes": 375460,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "0212cd145e13c944dedd836ce2579fdff3335f2eb5b7226d444ab1076db7705d",
+          "bytes": 339472,
+          "source": "fivefold_manuscript/figures/Figure_4.png"
         },
         {
           "file": "Figure_4.svg",
-          "format": "SVG",
-          "sha256": "bfa89fa27cbf6e97ebcce543ce4f5f11ff90be9262e5d42dcf256bb2540a3b66",
-          "bytes": 46468,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "b30709e2232b8d33de0747bc9b235fdba85b1e5817a5564285971289e753bac5",
+          "bytes": 62383,
+          "source": "fivefold_manuscript/figures/Figure_4.svg"
         },
         {
           "file": "Figure_4.pdf",
-          "format": "PDF",
-          "sha256": "6649c7ca814c1bebf63223f14b6554172d5195c23e0b4f8e6b964e776704c8b6",
-          "bytes": 57884,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "98fa4efc105b0495befa3f32f908989349b7aac9523c8109e4ed757804b8df96",
+          "bytes": 63242,
+          "source": "fivefold_manuscript/figures/Figure_4.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "F04_wse_domain.png",
-        "matching_source_png_sha256": "fca18ffd8d2c961a19887f575ec573fb53171de3615bcd3a85ab9cc3d43aef43",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "F04_wse_domain.svg",
-            "sha256": "bfa89fa27cbf6e97ebcce543ce4f5f11ff90be9262e5d42dcf256bb2540a3b66"
-          },
-          {
-            "source_export_name": "F04_wse_domain.pdf",
-            "sha256": "6649c7ca814c1bebf63223f14b6554172d5195c23e0b4f8e6b964e776704c8b6"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "summary_panels_rebuild",
-        "can_redraw_from_public_aggregates": true,
-        "public_aggregate_inputs": [
-          "data/validation_domain_summary.csv",
-          "data/extrapolation_distance.csv"
-        ],
-        "reproducible_panels": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "omitted_inputs": [],
-        "notes": "All plotted summary values and intervals are public aggregates. Recalculation of these summaries and bootstrap intervals from original validation predictions still requires restricted observations; redraw does not refit the model.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/validation_domain_summary.csv": "10c00655ccaad89b4ac73c2a8b1761b9861467f156a11515dc882a7e377b75ef",
-          "data/extrapolation_distance.csv": "815470bad9813774c4455a5dc883dd4ab3557f0268a5049ad88e7f7b53f29b47"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 1.1893928315086846
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
       "id": "Figure 5",
-      "title": "Extreme-error concentration, residual-screening sensitivity, and width-input effects",
-      "purpose": "Quantify extreme-error concentration, residual-screening sensitivity, and the effect of validation width representation.",
-      "caption": "Figure 5. Extreme-error concentration, residual-screening sensitivity, and width-input effects. All panels use 6,152 distinct WSE validation observations at 270 baseline-evaluable stations, with each observation represented by its median prediction across assignments. (a) Cumulative contribution to squared error as observations are ordered by hydraulic-model absolute error, largest first; the horizontal axis is logarithmic. (b–c) Pooled NSE and RMSE before screening, after excluding errors exceeding a factor of ten, and after excluding the 62 observations with the largest absolute errors. Both models use the same retained observations, selected by hydraulic-model residuals, and retain their original fits; labels are rounded. (d) Proportion of errors exceeding a factor of ten for observed validation widths, fitted validation widths, and the empirical WSE–Q curve. WSE, slope, calibration width anchors, and fitted parameters are identical for the two hydraulic variants. Screening uses observed discharge and is a retrospective diagnostic. These pooled summaries use a different aggregation from the per-assignment statistics in Table 1.",
-      "caption_sha256_utf8": "2cabcccb084ecf9340752c3589fd731044269dfc3b011fa5e1bb15ac66ea268f",
-      "docx_media_entry": "word/media/image6.png",
-      "docx_body_paragraph_index": 100,
-      "pixel_size": [
-        3172,
-        2880
-      ],
-      "dpi": [
-        450.0118,
-        450.0118
-      ],
+      "caption": "Figure 5. Hydraulic extrapolation and extreme residuals. (a) NSE calculated across gauges within, above, and below each observation’s calibration WSE range. Counts are median pairs per fold. Points and whiskers give the median and Q25–Q75 across five fold scores. (b) Fraction of total squared error contributed by the largest approximately 1% of absolute full-model residuals in each fold. (c) Gauge-level factor error against distance beyond the nearest boundary divided by calibration WSE span. Each gauge contributes its median out-of-fold factor error in the bin. Points and whiskers summarize these gauge medians, displayed on a logarithmic axis. Arrows indicate Q75 above the displayed range. (d) NSE calculated across gauges before and after exclusion of the largest residuals, using the original fits and the same foldwise exclusions for within-range observations. Blue circles include all WSE states and orange triangles select within-range observations. Screening uses measured validation discharge and is retrospective. Light points show individual fold scores. Numbers in (c) give contributing gauges.",
       "files": [
         {
           "file": "Figure_5.png",
-          "format": "PNG",
-          "sha256": "0cfcad6786c3d3ccdb4d2b5bf00c4f4eb6d325de4626da0066f01bf8d7afda74",
-          "bytes": 478222,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "7011709e5c78496594972778783b9671d1c7d0cb74d6dd7463ac1b524e38cbac",
+          "bytes": 361603,
+          "source": "fivefold_manuscript/figures/Figure_5.png"
         },
         {
           "file": "Figure_5.svg",
-          "format": "SVG",
-          "sha256": "a138b37f795f7947b15fd450edd38a41c69492a1de7016eafed85fe987fd98a9",
-          "bytes": 45499,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "4fa503c00606bf7a4158148c197bd4a6d2db1e1d63cc84c3119ae780d9f9fe3e",
+          "bytes": 50481,
+          "source": "fivefold_manuscript/figures/Figure_5.svg"
         },
         {
           "file": "Figure_5.pdf",
-          "format": "PDF",
-          "sha256": "39534e084bcf4980d0484c88ef254110d2ac1b7bd316e9bf2541a6c52d31fd96",
-          "bytes": 61380,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "61b2da36206944a503716aec4ab8f0125975cfddc7b1eb7f85f1da57671a2dd2",
+          "bytes": 56517,
+          "source": "fivefold_manuscript/figures/Figure_5.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "F06_extreme_errors_width.png",
-        "matching_source_png_sha256": "0cfcad6786c3d3ccdb4d2b5bf00c4f4eb6d325de4626da0066f01bf8d7afda74",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "F06_extreme_errors_width.svg",
-            "sha256": "a138b37f795f7947b15fd450edd38a41c69492a1de7016eafed85fe987fd98a9"
-          },
-          {
-            "source_export_name": "F06_extreme_errors_width.pdf",
-            "sha256": "39534e084bcf4980d0484c88ef254110d2ac1b7bd316e9bf2541a6c52d31fd96"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Error_Diagnostics_20261009.zip/code/sources/make_figure.py",
-            "sha256": "f078ff88f16a88b394ca28aa76f117f48bb823ce2cdb27dd2dedd252206c4778"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "summary_panels_rebuild",
-        "can_redraw_from_public_aggregates": true,
-        "public_aggregate_inputs": [
-          "data/extreme_error_concentration_curve.csv",
-          "data/extreme_error_pooled.csv",
-          "data/width_control_pooled.csv"
-        ],
-        "reproducible_panels": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "omitted_inputs": [],
-        "notes": "Panel a uses anonymous normalized rank and cumulative squared-error percentages, without Q, raw residuals, station IDs, or observation IDs. Panels b–d use aggregate statistics. Recalculating residual screening and controlled-width statistics requires the restricted original Q observations.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/extreme_error_concentration_curve.csv": "54a14d43234dfdfbbb26eee7cc58fcc549f5c5767b35534ec1444e3936226a3b",
-          "data/extreme_error_pooled.csv": "a7da8cc8f73110ecc7b6fbdf47dc04d4eb559a536f2641fc6018985069bca16e",
-          "data/width_control_pooled.csv": "6830756bc707794958eb4e087026b0e3ccbf931aa21be3f72a4f65e945427413"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 2.559564140372461
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
       "id": "Figure 6",
-      "title": "Matched comparisons with existing unconstrained SoS V3 discharge products",
-      "purpose": "Compare locally calibrated estimates with unconstrained SoS V3 products on matched samples.",
-      "caption": "Figure 6. Matched comparisons with existing unconstrained SoS V3 discharge products. (a) Stations eligible for a paired MdAPE comparison with at least one product after high-confidence network mapping; open orange squares indicate temporal stations. (b) Product-specific numbers of stations used for MdAPE. (c–d) Paired differences in MdAPE and NSE, summarized by the median across eligible stations, with 95% station-bootstrap intervals. Each comparison uses identical positive observations and requires at least four pairs per station. Positive differences indicate lower MdAPE or higher NSE for the local model. Both panels use symmetric-log axes. Eligible samples differ among products and can also differ by metric; the fixed four-product pooled cohort is reported separately in the text. The local model uses gauge discharge during calibration, so the comparison reflects both the local implementation and the additional gauge constraints.",
-      "caption_sha256_utf8": "ebde69a2b8448980dc7f0e050a62543e4625b9ef70448adf6390b28baf96eb24",
-      "docx_media_entry": "word/media/image5.png",
-      "docx_body_paragraph_index": 106,
-      "pixel_size": [
-        2840,
-        2400
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "caption": "Figure 6. Paired comparison with four unconstrained SoS Version 3 products. (a) The 108 gauges contributing 794 unique out-of-fold overpasses to the common four-product sample. Gray points show other calibration gauges. The five folds contain 174, 150, 157, 158, and 155 identical pairs for all five estimates. (b–c) NSE and RMSE calculated across gauges, with medians and Q25–Q75 across five validation folds. Local calibration uses additional gauge discharge, so the comparison represents the combined benefit of the implementation and ground constraints on this common sample. It has different coverage from the broader evaluation in Table 1. Light points show individual fold scores.",
       "files": [
         {
           "file": "Figure_6.png",
-          "format": "PNG",
-          "sha256": "599a2d2eac358f66a0b03c38bf122f0e73bd1231dc6a6920ef0c1d97c26d7f11",
-          "bytes": 473589,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "sha256": "68325240d6aaaa151c124ab398e9ffde69df1d1d4f9d689a9476b872ca697a5d",
+          "bytes": 475716,
+          "source": "fivefold_manuscript/figures/Figure_6.png"
         },
         {
           "file": "Figure_6.svg",
-          "format": "SVG",
-          "sha256": "89e1829199c525f214b7b1623ddd976a4382fa00ee0442c54806890b60b7112c",
-          "bytes": 3180301,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "a4151ae007ae3d70e027497a9e0d26fdb2c61635e276e99e81014dd808cbd762",
+          "bytes": 1602301,
+          "source": "fivefold_manuscript/figures/Figure_6.svg"
         },
         {
           "file": "Figure_6.pdf",
-          "format": "PDF",
-          "sha256": "b53e333b057e7d353d23838f09ea1e68c7391d1eed2594c46aae42285a504c41",
-          "bytes": 1079519,
-          "authority": "Verified companion export; unchanged original bytes."
+          "sha256": "b5fe8541e40f4459c106166bddff69999856b1771299a19596905be9a0411264",
+          "bytes": 507254,
+          "source": "fivefold_manuscript/figures/Figure_6.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "F05_official_comparison.png",
-        "matching_source_png_sha256": "599a2d2eac358f66a0b03c38bf122f0e73bd1231dc6a6920ef0c1d97c26d7f11",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "F05_official_comparison.svg",
-            "sha256": "89e1829199c525f214b7b1623ddd976a4382fa00ee0442c54806890b60b7112c"
-          },
-          {
-            "source_export_name": "F05_official_comparison.pdf",
-            "sha256": "b53e333b057e7d353d23838f09ea1e68c7391d1eed2594c46aae42285a504c41"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "partial",
-        "can_redraw_from_public_aggregates": "partial",
-        "public_aggregate_inputs": [
-          "data/sos_paired_bootstrap.csv"
-        ],
-        "reproducible_panels": [
-          "b",
-          "c",
-          "d"
-        ],
-        "omitted_inputs": [
-          "Coordinates and station membership used in panel a; geographic boundary layer."
-        ],
-        "notes": "Select baseline, high_confidence, pairwise rows and the MdAPE or NSE metric as appropriate. Panel a is available as the final graphic. Restricted matched observations are required to recompute metrics and bootstrap intervals.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/sos_paired_bootstrap.csv": "6c0dcf9587e45560c038b6182665a8efbee9fbda6515404664c2d6c08bf02f9c"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 1.242968126217623
-      }
+      "raster_identical_to_current_manuscript": true
     },
     {
-      "id": "Figure S1",
-      "title": "Examples of calibration width constraints",
-      "purpose": "Illustrate how width constraints alter selected calibration width relations.",
-      "caption": "Figure S1. Examples of calibration width constraints. Four stations from full-record reconstruction were selected because they had the largest numbers of anchors affected by the width-growth cap. Gray points show calibration anchors, dashed orange lines show the isotonic fit after the initial-width check, and solid blue lines show the growth-capped relation. WSE is shown relative to the lowest anchor at each station for readability. These examples illustrate how the constraints alter the curves at selected stations; Table S1 reports their paired performance effects across eligible stations.",
-      "caption_sha256_utf8": "2afc38fee26933d4f95ad070124f9d84e4b9460cd1d7769cd6f1bc723ee92782",
-      "docx_media_entry": "word/media/image7.png",
-      "docx_body_paragraph_index": 191,
-      "pixel_size": [
-        2840,
-        2000
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
+      "id": "Figure 7",
+      "caption": "Figure 7. Gauge-level performance and spatial variability. (a) NSE calculated once from the combined out-of-fold predictions at 418 eligible gauges, with all 542 calibration locations shown. Gray points lack an eligible score. (b) Distribution of gauge NSE on a symmetric-log axis. The quoted spread is IQR/2 across gauges. (c) Paired local-minus-product NSE differences calculated on the same unique observations at each gauge. Points and whiskers show the median and Q25–Q75 across eligible gauges for each product. Positive differences favor the local model. (d) Spatial distribution of paired differences for SIC4DVar. Symbol size in (a,d) increases with the number of evaluated observations. Products use different paired gauge samples.",
       "files": [
         {
-          "file": "Figure_S1.png",
-          "format": "PNG",
-          "sha256": "6abfd33a156f2135ba1ecb21db70462fe3179e5f6617f3be9ff9aa3f9ec8ba69",
-          "bytes": 437936,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
+          "file": "Figure_7.png",
+          "sha256": "c9b5c221dcbb8d5d665278b2adf2fddb9832dc688d3d1b911e7714dc608e45bd",
+          "bytes": 922641,
+          "source": "fivefold_manuscript/figures/Figure_7.png"
         },
         {
-          "file": "Figure_S1.svg",
-          "format": "SVG",
-          "sha256": "c3f9f2993712843457164d09e66038ce5b8af253cff9a14f9cbbe0172344e0ef",
-          "bytes": 89066,
-          "authority": "Verified companion export; unchanged original bytes."
+          "file": "Figure_7.svg",
+          "sha256": "9f8f656e7affd34273a608e1ca78d5a0c58e47e4dce888f42a44fe899e5d680a",
+          "bytes": 3729582,
+          "source": "fivefold_manuscript/figures/Figure_7.svg"
         },
         {
-          "file": "Figure_S1.pdf",
-          "format": "PDF",
-          "sha256": "c8a5b164a8c0c1b92c0cfe0c653c39b4d3a88e2f756debfd4f9a8bb63145dbf8",
-          "bytes": 48988,
-          "authority": "Verified companion export; unchanged original bytes."
+          "file": "Figure_7.pdf",
+          "sha256": "25e19098495694b4b45524ee4e1872651a87e95e9c68310ede451f8a983c5dc6",
+          "bytes": 1105554,
+          "source": "fivefold_manuscript/figures/Figure_7.pdf"
         }
       ],
-      "provenance": {
-        "matching_source_png_name": "S01_width_constraints.png",
-        "matching_source_png_sha256": "6abfd33a156f2135ba1ecb21db70462fe3179e5f6617f3be9ff9aa3f9ec8ba69",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "S01_width_constraints.svg",
-            "sha256": "c3f9f2993712843457164d09e66038ce5b8af253cff9a14f9cbbe0172344e0ef"
-          },
-          {
-            "source_export_name": "S01_width_constraints.pdf",
-            "sha256": "c8a5b164a8c0c1b92c0cfe0c653c39b4d3a88e2f756debfd4f9a8bb63145dbf8"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "graphic_only",
-        "can_redraw_from_public_aggregates": false,
-        "public_aggregate_inputs": [],
-        "reproducible_panels": [],
-        "omitted_inputs": [
-          "WSE/width calibration anchor series and fitted curves for the four selected stations."
-        ],
-        "notes": "The final PNG/SVG/PDF are supplied. The selected anchor-series table is absent from the public aggregate package; gauge Q is not plotted in this figure.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {}
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 1.2693297882533294
-      }
-    },
-    {
-      "id": "Figure S2",
-      "title": "Effective parameters and numerical diagnostics for full-record reconstruction at 542 stations",
-      "purpose": "Summarize effective parameter distributions, numerical stability, bound proximity, and resistance sensitivity.",
-      "caption": "Figure S2. Effective parameters and numerical diagnostics for full-record reconstruction at 542 stations. (a–c) Fitted n and β and their joint distribution, colored by objective loss. (d) Percentages of fits within 1% of the transformed search interval from each parameter bound. (e) Distributions across stations of coefficients of variation (CVs) calculated from three optimization starts. Boxes show the interquartile range (IQR), and whiskers extend to 1.5 IQR. Outliers are omitted from this panel, and only positive CVs are shown on the logarithmic axis. (f) Sensitivity of reconstruction NSE to a multiplier applied to fitted n, with geometry and all other inputs held fixed. When the multiplier is ×1.2, the n bounds clip the perturbation at 65.1% of stations. These diagnostics assess stability and sensitivity within the numerical search; identifying physical parameters requires additional hydraulic observations.",
-      "caption_sha256_utf8": "f0d47f69a8ec175aac0ef297436c450130896d5bc8634ec1f730955924276be3",
-      "docx_media_entry": "word/media/image8.png",
-      "docx_body_paragraph_index": 193,
-      "pixel_size": [
-        2840,
-        2280
-      ],
-      "dpi": [
-        399.9992,
-        399.9992
-      ],
-      "files": [
-        {
-          "file": "Figure_S2.png",
-          "format": "PNG",
-          "sha256": "d54bc3fcc0f60b43fae24bfb3105c507908e51a1e443e0eae622fec0573c20ec",
-          "bytes": 352749,
-          "authority": "Exact embedded image bytes from the v15 clean manuscript."
-        },
-        {
-          "file": "Figure_S2.svg",
-          "format": "SVG",
-          "sha256": "aa248a6a65f988d144724bc55566a6625f97d8bf8fc23ea05f5ce89ff1ad7e06",
-          "bytes": 164674,
-          "authority": "Verified companion export; unchanged original bytes."
-        },
-        {
-          "file": "Figure_S2.pdf",
-          "format": "PDF",
-          "sha256": "cb1ec42a04413e32594ca36a15b3ded9fbc21786f59fe66364024435c80fac20",
-          "bytes": 75579,
-          "authority": "Verified companion export; unchanged original bytes."
-        }
-      ],
-      "provenance": {
-        "matching_source_png_name": "S02_effective_parameters.png",
-        "matching_source_png_sha256": "d54bc3fcc0f60b43fae24bfb3105c507908e51a1e443e0eae622fec0573c20ec",
-        "source_png_equals_docx_bytes": true,
-        "companion_exports": [
-          {
-            "source_export_name": "S02_effective_parameters.svg",
-            "sha256": "aa248a6a65f988d144724bc55566a6625f97d8bf8fc23ea05f5ce89ff1ad7e06"
-          },
-          {
-            "source_export_name": "S02_effective_parameters.pdf",
-            "sha256": "cb1ec42a04413e32594ca36a15b3ded9fbc21786f59fe66364024435c80fac20"
-          }
-        ],
-        "source_recipes": [
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures.py",
-            "sha256": "6a56f1294ae29ab1ed9016c52710dfaeb3641555ddd82958271df4f19a6c2fd4"
-          },
-          {
-            "source_name": "SWOT_Figures_focused_20261007.zip/source/build_figures_previous.py",
-            "sha256": "bc80ed597cac6a5a26b410e71e7bc4b2ff6767c5b27026c57753130421a58929"
-          }
-        ],
-        "verification": "All authoritative PNGs were visually checked at readable resolution. Companion export routines and SVG labels/structure were checked; available PDF companions were raster-rendered and visually compared with the authoritative PNG. No scientific-content difference was found."
-      },
-      "public_reproduction": {
-        "status": "partial",
-        "can_redraw_from_public_aggregates": "partial",
-        "public_aggregate_inputs": [
-          "data/parameter_histograms.csv",
-          "data/parameter_summary.csv",
-          "data/parameter_bound_fractions.csv",
-          "data/optimizer_cv_box_statistics.csv",
-          "data/n_sensitivity_summary.csv"
-        ],
-        "reproducible_panels": [
-          "a",
-          "b",
-          "d",
-          "e",
-          "f"
-        ],
-        "omitted_inputs": [
-          "Individual fitted n, beta, and objective-loss triples for panel c."
-        ],
-        "notes": "Histograms, bound fractions, box statistics, and n-sensitivity summaries are public. Panel c is preserved in the final graphic; the individual parameter table is not published. Full parameter fitting and sensitivity recalculation require restricted inputs. Parameter-summary medians supply the reference lines and annotations in panels a–b; CV box statistics use only positive finite CVs.",
-        "public_input_files_verified": true,
-        "public_input_sha256": {
-          "data/parameter_histograms.csv": "98b896853da1041d493f97c8cc45f3afbc707565d38418416efeb2615da28c92",
-          "data/parameter_summary.csv": "6534ba698a400f67e7eca9ba3bea067c898ed0b2a4163e0be25a3a65e322c53b",
-          "data/parameter_bound_fractions.csv": "cb18acfb6849fe851bdefd040f5f4098fdbc6b33326e800e1f1c1771ba7417b2",
-          "data/optimizer_cv_box_statistics.csv": "5f343181f9acdf441b1ea19fe43cc1212c7dfbe6e51cbf228a70b0581191507d",
-          "data/n_sensitivity_summary.csv": "444a08233612514c844c2a099feaead2cd4ccb26aa12e8240e40c09550cbc6b4"
-        }
-      },
-      "privacy_audit": {
-        "passed": true,
-        "scope": "SVG XML metadata, comments, links, scripts, descriptions, data attributes; PDF metadata, annotations, attachments, document actions; published visible content.",
-        "svg_scripts": 0,
-        "svg_foreign_objects": 0,
-        "svg_external_references": [],
-        "svg_embedded_record_tokens": [],
-        "comment_content": "Math/axis labels only.",
-        "metadata_content": "Matplotlib creator and export timestamp only.",
-        "pdf_annotations": 0,
-        "pdf_attachments": [],
-        "pdf_document_actions": false,
-        "pdf_mean_absolute_render_difference_0_255": 1.2144424609478088
-      }
+      "raster_identical_to_current_manuscript": true
     }
   ],
-  "source_recipe_scope": "Historical generating-script identifiers and SHA-256 values. Public portable entry points may use different input paths; the original private workspace and data archives are not included.",
-  "public_aggregate_file_checks": [
+  "assets": [
     {
-      "file": "data/ablation_paired_summary.csv",
-      "sha256": "f43e6b08fea95fb6cc4f90dcf53f019eb89fe166ae7a517cd686794f9a2f9f04",
-      "rows": 60,
-      "columns": [
-        "comparator",
-        "metric",
-        "paired_station_count",
-        "paired_station_repeat_count",
-        "station_repeat_aggregation",
-        "median_full_advantage",
-        "mean_full_advantage",
-        "full_better_fraction",
-        "ci_lower_2p5",
-        "ci_upper_97p5",
-        "wilcoxon_p_value",
-        "definition",
-        "support"
-      ]
+      "file": "assets/source_Figure_1.png",
+      "purpose": "Original upper panels used by the current method-figure renderer; its historical third row is replaced by the fivefold row.",
+      "sha256": "e7d2dc044cc89513fe2f10314e27b5f39122fa8b1b9e8c0ae2dffa105db03174"
     },
     {
-      "file": "data/calibration_sample_size.csv",
-      "sha256": "8e7c5d22bdff2b6dd098ff9cbf63d86b3fdc7b076060ad2c8db105acf462b37b",
-      "rows": 4,
-      "columns": [
-        "cohort",
-        "sample_size_label",
-        "sample_size_order",
-        "station_count",
-        "median_train_count_input",
-        "median_train_count_effective",
-        "median_validation_count",
-        "station_median_R2",
-        "station_q25_R2",
-        "station_q75_R2",
-        "station_valid_R2_count",
-        "station_median_NSE",
-        "station_q25_NSE",
-        "station_q75_NSE",
-        "station_valid_NSE_count",
-        "station_median_KGE",
-        "station_q25_KGE",
-        "station_q75_KGE",
-        "station_valid_KGE_count",
-        "station_median_RMSE",
-        "station_q25_RMSE",
-        "station_q75_RMSE",
-        "station_valid_RMSE_count",
-        "station_median_MAE",
-        "station_q25_MAE",
-        "station_q75_MAE",
-        "station_valid_MAE_count",
-        "station_median_absPBIAS",
-        "station_q25_absPBIAS",
-        "station_q75_absPBIAS",
-        "station_valid_absPBIAS_count",
-        "station_median_logR2",
-        "station_q25_logR2",
-        "station_q75_logR2",
-        "station_valid_logR2_count",
-        "station_median_logNSE",
-        "station_q25_logNSE",
-        "station_q75_logNSE",
-        "station_valid_logNSE_count",
-        "station_median_factor_error_median",
-        "station_q25_factor_error_median",
-        "station_q75_factor_error_median",
-        "station_valid_factor_error_median_count",
-        "n_at_lower_bound_fraction",
-        "n_at_upper_bound_fraction",
-        "beta_at_lower_bound_fraction",
-        "beta_at_upper_bound_fraction",
-        "width0_at_lower_bound_fraction",
-        "width0_at_upper_bound_fraction"
-      ]
-    },
-    {
-      "file": "data/extrapolation_distance.csv",
-      "sha256": "815470bad9813774c4455a5dc883dd4ab3557f0268a5049ad88e7f7b53f29b47",
-      "rows": 16,
-      "columns": [
-        "scheme",
-        "side",
-        "bin",
-        "stations",
-        "unique_observations",
-        "median_predictions_per_assignment",
-        "median_abs_log_ratio",
-        "factor",
-        "factor_ci_low",
-        "factor_ci_high",
-        "median_signed_log_ratio",
-        "median_distance_m",
-        "median_distance_norm"
-      ]
-    },
-    {
-      "file": "data/extreme_error_concentration_curve.csv",
-      "sha256": "54a14d43234dfdfbbb26eee7cc58fcc549f5c5767b35534ec1444e3936226a3b",
-      "rows": 6152,
-      "columns": [
-        "rank_percent",
-        "cumulative_squared_error_percent"
-      ]
-    },
-    {
-      "file": "data/extreme_error_pooled.csv",
-      "sha256": "a7da8cc8f73110ecc7b6fbdf47dc04d4eb559a536f2641fc6018985069bca16e",
-      "rows": 8,
-      "columns": [
-        "rule",
-        "model",
-        "observations_removed",
-        "retention",
-        "n",
-        "NSE",
-        "R2",
-        "MAE",
-        "RMSE",
-        "MdAPE",
-        "KGE",
-        "factor2_fraction"
-      ]
-    },
-    {
-      "file": "data/n_sensitivity_summary.csv",
-      "sha256": "444a08233612514c844c2a099feaead2cd4ccb26aa12e8240e40c09550cbc6b4",
-      "rows": 21,
-      "columns": [
-        "grid_type",
-        "n_test",
-        "station_count",
-        "station_median_R2",
-        "station_q25_R2",
-        "station_q75_R2",
-        "station_median_NSE",
-        "station_q25_NSE",
-        "station_q75_NSE",
-        "station_median_KGE",
-        "station_q25_KGE",
-        "station_q75_KGE",
-        "station_median_logR2",
-        "station_q25_logR2",
-        "station_q75_logR2",
-        "station_median_logNSE",
-        "station_q25_logNSE",
-        "station_q75_logNSE",
-        "station_median_RMSE",
-        "station_q25_RMSE",
-        "station_q75_RMSE",
-        "station_median_MAE",
-        "station_q25_MAE",
-        "station_q75_MAE",
-        "station_median_Bias",
-        "station_q25_Bias",
-        "station_q75_Bias",
-        "station_median_PBIAS",
-        "station_q25_PBIAS",
-        "station_q75_PBIAS",
-        "station_median_median_signed_log_ratio",
-        "station_q25_median_signed_log_ratio",
-        "station_q75_median_signed_log_ratio",
-        "station_median_median_abs_log_ratio",
-        "station_q25_median_abs_log_ratio",
-        "station_q75_median_abs_log_ratio",
-        "station_median_factor_error_median",
-        "station_q25_factor_error_median",
-        "station_q75_factor_error_median",
-        "n_multiplier_requested",
-        "n_multiplier",
-        "actual_multiplier_median",
-        "actual_multiplier_q25",
-        "actual_multiplier_q75",
-        "clipped_station_fraction"
-      ]
-    },
-    {
-      "file": "data/optimizer_cv_box_statistics.csv",
-      "sha256": "5f343181f9acdf441b1ea19fe43cc1212c7dfbe6e51cbf228a70b0581191507d",
-      "rows": 4,
-      "columns": [
-        "parameter",
-        "total_finite_count",
-        "positive_finite_count",
-        "nonpositive_count",
-        "median_all",
-        "q25",
-        "median_cv",
-        "q75",
-        "whisker_low",
-        "whisker_high",
-        "outlier_count",
-        "scope"
-      ]
-    },
-    {
-      "file": "data/parameter_bound_fractions.csv",
-      "sha256": "cb18acfb6849fe851bdefd040f5f4098fdbc6b33326e800e1f1c1771ba7417b2",
-      "rows": 8,
-      "columns": [
-        "parameter",
-        "bound",
-        "count",
-        "stations",
-        "bound_fraction_percent",
-        "scope"
-      ]
-    },
-    {
-      "file": "data/parameter_histograms.csv",
-      "sha256": "98b896853da1041d493f97c8cc45f3afbc707565d38418416efeb2615da28c92",
-      "rows": 38,
-      "columns": [
-        "parameter",
-        "bin_lower",
-        "bin_upper",
-        "count",
-        "unit",
-        "scope"
-      ]
-    },
-    {
-      "file": "data/parameter_summary.csv",
-      "sha256": "6534ba698a400f67e7eca9ba3bea067c898ed0b2a4163e0be25a3a65e322c53b",
-      "rows": 6,
-      "columns": [
-        "parameter",
-        "stations",
-        "min",
-        "q25",
-        "median_parameter",
-        "q75",
-        "max",
-        "unit"
-      ]
-    },
-    {
-      "file": "data/qc_counts.csv",
-      "sha256": "f2a70683a6f17cfb5f3606b0892cf304ef7e708cdf119808d9c5ba66c4548ec8",
-      "rows": 11,
-      "columns": [
-        "stage",
-        "count",
-        "unit",
-        "precision_status",
-        "scope"
-      ]
-    },
-    {
-      "file": "data/sos_paired_bootstrap.csv",
-      "sha256": "6c0dcf9587e45560c038b6182665a8efbee9fbda6515404664c2d6c08bf02f9c",
-      "rows": 112,
-      "columns": [
-        "cohort",
-        "validation_scheme",
-        "support",
-        "product",
-        "rule",
-        "metric",
-        "local_median",
-        "official_median",
-        "local_better_fraction",
-        "stations",
-        "median",
-        "ci_low",
-        "ci_high"
-      ]
-    },
-    {
-      "file": "data/validation_domain_by_assignment.csv",
-      "sha256": "b6e3c37b27afd44c0ba61150084d7cb53855d2a4b23f0b64561929c72fa79528",
-      "rows": 33,
-      "columns": [
-        "scheme",
-        "repeat",
-        "side",
-        "observations",
-        "stations",
-        "NSE",
-        "R2",
-        "MdAPE",
-        "factor",
-        "signed_log_ratio"
-      ]
-    },
-    {
-      "file": "data/validation_domain_summary.csv",
-      "sha256": "10c00655ccaad89b4ac73c2a8b1761b9861467f156a11515dc882a7e377b75ef",
-      "rows": 6,
-      "columns": [
-        "scheme",
-        "side",
-        "observations",
-        "stations",
-        "NSE",
-        "R2",
-        "MdAPE",
-        "factor",
-        "signed_log_ratio",
-        "count_aggregation"
-      ]
-    },
-    {
-      "file": "data/validation_overall_by_assignment.csv",
-      "sha256": "220238ba5309ca89cce24eac58ce39bbcfab930c77846f9fe2ef354c439e9cd8",
-      "rows": 122,
-      "columns": [
-        "method",
-        "validation_scheme",
-        "repeat_id",
-        "method_label",
-        "station_count",
-        "prediction_count",
-        "pooled_valid_count",
-        "pooled_R2",
-        "pooled_NSE",
-        "pooled_KGE",
-        "pooled_logR2",
-        "pooled_logNSE",
-        "pooled_RMSE",
-        "pooled_MAE",
-        "pooled_Bias",
-        "pooled_PBIAS",
-        "pooled_median_signed_log_ratio",
-        "pooled_median_abs_log_ratio",
-        "pooled_factor_error_median",
-        "station_median_R2",
-        "station_mean_R2",
-        "station_valid_R2_count",
-        "station_median_NSE",
-        "station_mean_NSE",
-        "station_valid_NSE_count",
-        "station_median_KGE",
-        "station_mean_KGE",
-        "station_valid_KGE_count",
-        "station_median_logR2",
-        "station_mean_logR2",
-        "station_valid_logR2_count",
-        "station_median_logNSE",
-        "station_mean_logNSE",
-        "station_valid_logNSE_count",
-        "station_median_RMSE",
-        "station_mean_RMSE",
-        "station_valid_RMSE_count",
-        "station_median_MAE",
-        "station_mean_MAE",
-        "station_valid_MAE_count",
-        "station_median_Bias",
-        "station_mean_Bias",
-        "station_valid_Bias_count",
-        "station_median_PBIAS",
-        "station_mean_PBIAS",
-        "station_valid_PBIAS_count",
-        "station_median_median_signed_log_ratio",
-        "station_mean_median_signed_log_ratio",
-        "station_valid_median_signed_log_ratio_count",
-        "station_median_median_abs_log_ratio",
-        "station_mean_median_abs_log_ratio",
-        "station_valid_median_abs_log_ratio_count",
-        "station_median_factor_error_median",
-        "station_mean_factor_error_median",
-        "station_valid_factor_error_median_count"
-      ]
-    },
-    {
-      "file": "data/width_control_pooled.csv",
-      "sha256": "6830756bc707794958eb4e087026b0e3ccbf931aa21be3f72a4f65e945427413",
-      "rows": 3,
-      "columns": [
-        "model",
-        "stations",
-        "tenfold_errors",
-        "tenfold_rate",
-        "n",
-        "NSE",
-        "R2",
-        "MAE",
-        "RMSE",
-        "MdAPE",
-        "KGE",
-        "factor2_fraction"
-      ]
+      "file": "assets/USGS_Alvin_ADCP.jpg",
+      "creator": "Tim Merrick / USGS",
+      "source_page": "https://www.usgs.gov/media/images/measuring-boise-river-streamflow-adcp-0",
+      "source_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/Alvin_ADCP.jpg",
+      "source_usage": "Public Domain",
+      "sha256": "25f9493c3858eeaf728505db66c755249e2c6ed6b933d8e31889cf77379be2cd"
     }
-  ],
-  "public_reproduction_input_check_date": "2026-10-12"
+  ]
 }

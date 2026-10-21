@@ -1,0 +1,40 @@
+{
+  "version": "1.1.0",
+  "prepared_date": "2026-10-21",
+  "profile": "code_and_figures",
+  "data_included": false,
+  "manuscript_revision": "SZ-SWOT-15_fivefold_CLEAN_EN_20261021.docx",
+  "current_figures": [
+    "Figure_1.png",
+    "Figure_2.png",
+    "Figure_3.png",
+    "Figure_4.png",
+    "Figure_5.png",
+    "Figure_6.png",
+    "Figure_7.png"
+  ],
+  "immutable_calibration_sha256": {
+    "code/calibration/common_support.py": "9d8008a16e683ca977bc1f38f20402da8086d61abd0502f19e5802b25a9f1aa9",
+    "code/calibration/quality_geometry.py": "93c0b6abae9f7303a7975615d031439415212a38835a7a04b14b1959cfe6f171",
+    "code/calibration/revision_audits.py": "109e8e9efa58b1532cd7eea50f3f8228e493afc8413ab0dd5239f401cee18cad",
+    "code/calibration/run_beta_wse0_width0_experiments.py": "4a4e5c444a8bddae5ef7290f1f455e679ae1e0d05d0b962e4d646d190150c43e",
+    "code/calibration/run_review_revision_experiments.py": "3490c19443ae68fe5b42dda9e40ee518eae795ab2e041bc88b94b13423d30b01",
+    "code/calibration/swot_beta_wse0_width0_model.py": "7ff62c5469479333965077864c926925637c8e1aa7d1f9ba2cec86604eb8c7ce",
+    "code/calibration/swot_n_wse0_width0_nonnegative_cv.py": "e8e35585fcdecbea5736e1f78c3b2c17d93726cd741d84653d90000077966a02"
+  },
+  "required_files": [
+    "README.md",
+    "LICENSE",
+    "LICENSE_CODE.txt",
+    "LICENSE_DATA.txt",
+    "CITATION.cff",
+    "citation.bib",
+    "SHA256SUMS.txt",
+    "figures/figure_manifest.json",
+    "metadata/zenodo_metadata.json",
+    "code/run.py",
+    "code/fivefold/cli.py",
+    "code/fivefold/build_figures.py",
+    "code/configuration/fivefold.example.json"
+  ]
+}
